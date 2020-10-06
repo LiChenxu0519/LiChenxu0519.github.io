@@ -1,7 +1,51 @@
-body {
-    background-color:#E8A8FF; 
+
+.peach{
+    top: 121px;
+    left: 160.5px;
+    position: absolute;
 }
 
-h1 {
+
+#nametag-container {
+width: 753px;
+height:468px;
+background: rgb(232,168,255);
+background: linear-gradient(0deg, rgba(232,168,255,1) 0%, rgba(255,255,255,1) 100%);
+margin:70px auto 0;
+position: relative;
+}
+
+h1,
+h2,
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    margin-left: 10px;
+}
+
+h1,h2{
+    color:CC8AFF;
+    font-size: 55px;
+    width: 753px;
+    height: 110px;
+
+}
+
+h1{
     text-align: right;
+    line-height:200px;
+    margin-left:-10px;
+} 
+
+h2{
+    text-align: left;
+    line-height:120px;
+   
+}
+
+h3{
+    color:5FECFF;
+    font-size: 80px;
+    line-height: 130px;
+    text-align: center
 }
