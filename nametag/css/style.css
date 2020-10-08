@@ -1,26 +1,29 @@
-
 .peach{
+    z-index:2;
+    margin-left: 435px;
+    margin-right: 435px;
     top: 121px;
-    left: 160.5px;
     position: absolute;
 }
 
 
 #nametag-container {
-width: 753px;
-height:468px;
-background: rgb(232,168,255);
-background: linear-gradient(0deg, rgba(232,168,255,1) 0%, rgba(255,255,255,1) 100%);
-margin:70px auto 0;
-position: relative;
+    z-index: 1;
+    width: 753px;
+    height:468px;
+    background: rgb(232,168,255);
+    background: linear-gradient(0deg, rgba(232,168,255,1) 0%, rgba(255,255,255,1) 100%);
+    margin:70px auto 0;
 }
 
 h1,
 h2,
 h3{
+    z-index: 3;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:lighter;
     margin-left: 10px;
+    position:relative;
 }
 
 h1,h2{
