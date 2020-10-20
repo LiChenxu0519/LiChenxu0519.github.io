@@ -1,0 +1,168 @@
+body {
+    margin:0;
+}
+
+nav {
+    width:100%;
+    height:107px;
+    background: lightblue;
+    box-sizing:border-box;
+    padding:15px 31px;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+}
+
+#logo {
+    text-align: center;
+    width: 76px;
+    height:100%;
+    background-color: greenyellow;
+    margin:0;
+}
+
+#home {
+    height:100%;
+    width:102px;
+    background-color: #EAFFBC;
+    margin:0;
+}
+
+#following {
+    height:100%;
+    width:686px;
+    background-color: #f4bcff;
+    margin:0;
+}
+
+#search {
+    width: 76px;
+    height:100%;
+    background-color: rgb(240, 255, 199);
+    margin:0;
+}
+
+#bell {
+    width: 76px;
+    height:100%;
+    background-color: rgb(240, 255, 199);
+    margin:0;
+}
+
+#inbox {
+    width: 76px;
+    height:100%;
+    background-color: rgb(240, 255, 199);
+    margin:0;
+}
+
+#account {
+    width: 76px;
+    height:100%;
+    background-color: rgb(240, 255, 199);
+    margin:0;
+}
+
+#return {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 69px;
+    top: 150px;
+    background-color: rgb(175, 175, 255);
+}
+
+#image {
+    position: absolute;
+    width: 501px;
+    height: 643px;
+    left: 219px;
+    top: 150px;
+    background-color: rgb(75, 97, 75);
+}
+
+#information {
+    position: absolute;
+    width: 501px;
+    height: 643px;
+    left: 720px;
+    top: 150px;
+    background-color: rgb(215, 255, 215);
+}
+
+#icon1 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 735px;
+    top: 178px;
+    background-color: rgb(175, 175, 255);
+}
+
+#icon2 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 826px;
+    top: 178px;
+    background-color: rgb(175, 175, 255);
+}
+
+#savethispin {
+    position: absolute;
+    width: 163px;
+    height: 76px;
+    left: 1014px;
+    top: 178px;
+    background: #4F5A38;
+}
+
+#information-text-box1{
+    position: absolute;
+    width: 423px;
+    height: 109px;
+    left: 759px;
+    top: 287px;    
+    background: #BCCBFF;
+}
+
+#information-text-box2{
+    position: absolute;
+    width: 423px;
+    height: 118px;
+    left: 759px;
+    top: 423px;
+    background: #BCCBFF;
+}
+
+#information-text-box3{
+    position: absolute;
+    width: 423px;
+    height: 39px;
+    left: 759px;
+    top: 733px;
+    background: #BCCBFF;
+}
+
+.images {
+    padding: 30px 129.5px;
+    margin:0;
+    display:flex;
+}
+
+.images ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap:29px;
+    row-gap:29px;
+    padding-inline-start: 0px;
+}
+
+.images li{
+    text-align:center;
+    list-style:none;
+    margin:0;
+    width:211px;
+    height:270px;
+    background-color: rgb(192, 181, 255);
+}
