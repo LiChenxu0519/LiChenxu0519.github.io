@@ -78,6 +78,7 @@ nav {
 }
 
 .images li{
+    text-align:center;
     list-style:none;
     margin:0;
     width:211px;
