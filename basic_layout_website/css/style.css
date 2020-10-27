@@ -66,7 +66,6 @@ nav {
 .images {
     padding: 30px 129.5px;
     margin:0;
-    display:flex;
 }
 
 .images ul{
@@ -81,7 +80,6 @@ nav {
     text-align:center;
     list-style:none;
     margin:0;
-    width:211px;
     height:270px;
     background-color: rgb(192, 181, 255);
 }
