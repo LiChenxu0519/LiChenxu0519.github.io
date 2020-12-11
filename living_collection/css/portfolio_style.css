@@ -1,0 +1,17 @@
+body
+{
+    margin:20px;
+    background-image:url("bg2.jpg");
+    background-color: #cccccc;
+}
+
+h1{
+    height: 137px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 95px;
+    text-align:center;
+    font-family: Trirong;
+    font-style: semibold;
+}
+}
