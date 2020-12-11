@@ -1,0 +1,66 @@
+body
+{
+    margin:20px;
+    background-image:url("bg1.jpg");
+    background-color: #cccccc;
+}
+
+h1{
+    height: 137px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 95px;
+    text-align:center;
+    font-family: Trirong;
+    font-style: semibold;
+}
+
+h2{
+    font-size: 30px;
+    text-align:left;
+    font-family: Trirong;
+    font-style: semibold;
+}
+
+h3{
+    font-size: 20px;
+    text-align:left;
+    font-family: Trirong;
+    font-style: semibold;
+}
+
+#introduction {
+    font-weight: 40;
+    margin-left:55%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    font-family: Trirong;
+    font-style: light;
+
+}
+
+#intro2 {
+    font-weight: 40;
+    margin-top:35px;
+    margin-left:55%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    font-family: Trirong;
+    font-style: light;
+
+}
+
+
+
+#portfolio-button {
+    font-weight:60;
+    text-align:right;
+    margin-top:80px;
+    font-size:30px;
+    height: 15vh;
+    font-family: Trirong;
+    font-style: light;
+
+}
