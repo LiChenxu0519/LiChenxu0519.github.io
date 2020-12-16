@@ -1,17 +1,112 @@
 body
 {
     margin:20px;
-    background-image:url("bg2.jpg");
-    background-color: #cccccc;
 }
 
 h1{
-    height: 137px;
+    font-size: 40px;
+    text-align:left;
+    font-family: Trirong;
+}
+
+#gradient { 
+    top:0;
+    background: radial-gradient(circle at 50% 50%, rgb(136, 183, 255), transparent 50%, transparent 100%, transparent 100%);
+    position:fixed;
+    width:200vw;
+    height:200vh;
+    z-index:-1;
+    transform:translate(-50%, -50%);
+    animation: gradientAnimation 10s ease-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0%{
+        transform: translate(-50%, -50%);}
+    25%{
+        transform: translate(0%, -50%);}
+    50% {
+        transform: translate(0%, 0%);}
+    75% {
+        transform: translate(-50%, 0%);}
+    }
+
+
+#interview{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.hide{
+    width: 40%;
+    margin-right: auto;
     margin-top: 20%;
     margin-bottom: 20%;
-    font-size: 95px;
-    text-align:center;
-    font-family: Trirong;
-    font-style: semibold;
+    
 }
+
+.hide {
+    display:none;
 }
+
+#interview:hover+ .hide {
+    display:block;
+}
+
+
+
+#allhtml{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#nametag{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#expressivetext{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#basicweb{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#toy{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#home {
+    text-align:right;
+    font-size:40px;
+    margin:10%;
+}
+
+#home a{
+    color:black;
+    text-decoration:none;
+}
+
+

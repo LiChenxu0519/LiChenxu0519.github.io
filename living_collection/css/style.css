@@ -1,9 +1,52 @@
 body
 {
     margin:20px;
-    background-image:url("bg1.jpg");
-    background-color: #cccccc;
 }
+
+
+#gradient { 
+    top:0;
+    background: radial-gradient(circle at 50% 50%, rgb(0, 255, 0), transparent 50%, transparent 100%, transparent 100%);
+    position:fixed;
+    width:200vw;
+    height:200vh;
+    z-index:-1;
+    transform:translate(-50%, -50%);
+    animation: gradientAnimation 20s ease-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0%{
+        transform: translate(-50%, -50%);}
+    25%{
+        transform: translate(0%, -50%);}
+    50% {
+        transform: translate(0%, 0%);}
+    75% {
+        transform: translate(-50%, 0%);}
+    }
+
+#gradient2 { 
+    top:0;
+    background: radial-gradient(circle at 50% 50%, rgb(136, 168, 255), transparent 50%, transparent 100%, transparent 100%);
+    position:fixed;
+    width:200vw;
+    height:200vh;
+    z-index:-1;
+    transform:translate(-50%, -50%);
+    animation: gradientAnimation 20s ease-out infinite;
+    }
+    
+ @keyframes gradientAnimation2 {
+    0%{
+        transform: translate(-50%, -50%);}
+    25%{
+        transform: translate(0%, -50%);}
+    50% {
+        transform: translate(0%, 0%);}
+    75% {
+        transform: translate(-50%, 0%);}
+        }
 
 h1{
     height: 137px;
@@ -16,7 +59,7 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
     text-align:left;
     font-family: Trirong;
     font-style: semibold;
@@ -55,12 +98,16 @@ h3{
 
 
 #portfolio-button {
-    font-weight:60;
+    font-weight:30;
     text-align:right;
     margin-top:80px;
-    font-size:30px;
+    font-size:40px;
     height: 15vh;
     font-family: Trirong;
     font-style: light;
+}
 
+#portfolio-button a {
+    color:black;
+    text-decoration: none;
 }
