@@ -1,6 +1,9 @@
 body
 {
-    margin:20px;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 
@@ -50,8 +53,8 @@ body
 
 h1{
     height: 137px;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 17%;
+    margin-bottom: 15%;
     font-size: 95px;
     text-align:center;
     font-family: Trirong;
@@ -69,30 +72,7 @@ h3{
     font-size: 20px;
     text-align:left;
     font-family: Trirong;
-    font-style: semibold;
-}
-
-#introduction {
-    font-weight: 40;
-    margin-left:55%;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: right;
-    font-family: Trirong;
-    font-style: light;
-
-}
-
-#intro2 {
-    font-weight: 40;
-    margin-top:35px;
-    margin-left:55%;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: right;
-    font-family: Trirong;
-    font-style: light;
-
+    margin-top: 28%;
 }
 
 
@@ -100,11 +80,9 @@ h3{
 #portfolio-button {
     font-weight:30;
     text-align:right;
-    margin-top:80px;
+    margin-top:-5%;
     font-size:40px;
-    height: 15vh;
-    font-family: Trirong;
-    font-style: light;
+
 }
 
 #portfolio-button a {

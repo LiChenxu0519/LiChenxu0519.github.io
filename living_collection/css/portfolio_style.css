@@ -1,6 +1,9 @@
 body
 {
-    margin:20px;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 h1{
@@ -35,73 +38,184 @@ h1{
 #interview{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
 }
 
-.hide{
-    width: 40%;
-    margin-right: auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    
+
+#interview_image {
+    float:right;
+    border:1px solid black;  
+    width: 25%;
+    margin-top: -5%;
+    margin-right:30%;
 }
 
-.hide {
+.interview_hide {
     display:none;
 }
 
-#interview:hover+ .hide {
+#interview:hover+ .interview_hide{
     display:block;
 }
 
-
+.interview_link a {
+    color:black;
+    text-decoration: none;
+}
 
 #allhtml{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
 }
+
+.allhtml_link a {
+    color:black;
+    text-decoration: none;
+}
+
+#allhtml_image {
+    float:right;
+    border:1px solid black;  
+    width: 40%;
+    margin-top: -8%;
+    margin-right:15%;
+}
+
+.allhtml_hide {
+    display:none;
+}
+
+#allhtml:hover+ .allhtml_hide{
+    display:block;
+}
+
 
 #nametag{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
 }
 
-#expressivetext{
+.nametag_link a {
+    color:black;
+    text-decoration: none;
+}
+
+#nametag_image {
+    float:right;
+    border:1px solid black;  
+    width: 40%;
+    margin-top: -15%;
+    margin-right:15%;
+}
+
+.nametag_hide {
+    display:none;
+}
+
+#nametag:hover+ .nametag_hide{
+    display:block;
+}
+
+#expressive{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
+}
+
+.expressive_link a {
+    color:black;
+    text-decoration: none;
+}
+
+#expressive_image {
+    float:right;
+    border:1px solid white;  
+    width: 40%;
+    margin-top: -25%;
+    margin-right:15%;
+}
+
+.expressive_hide {
+    display:none;
+}
+
+#expressive:hover+ .expressive_hide{
+    display:block;
 }
 
 #basicweb{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
+}
+
+.basicweb_link a {
+    color:black;
+    text-decoration: none;
+}
+
+#basic_image {
+    float:right;
+    border:1px solid black;  
+    width: 40%;
+    margin-top: -33%;
+    margin-right:15%;
+}
+
+.basic_hide {
+    display:none;
+}
+
+#basicweb:hover+ .basic_hide{
+    display:block;
 }
 
 #toy{
     width: 20%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 10px;
     border: 1px solid black;
 }
 
+.toy_link a {
+    color:black;
+    text-decoration: none;
+}
+
+#toy_image {
+    float:right;
+    border:1px solid black;  
+    width: 40%;
+    margin-top: -40%;
+    margin-right:15%;
+}
+
+.toy_hide {
+    display:none;
+}
+
+#toy:hover+ .toy_hide{
+    display:block;
+}
+
 #home {
+
     text-align:right;
     font-size:40px;
-    margin:10%;
+
 }
 
 #home a{
