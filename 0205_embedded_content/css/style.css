@@ -1,0 +1,69 @@
+body 
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.body_content{
+    margin-top: 3%;
+    margin-bottom:3%;
+    margin-left:20%;
+    margin-right:20%; 
+}
+
+#header{
+    width:100%;
+}
+
+h1{
+    font-family: fantasy;
+    font-size:40px;
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 5%
+}
+
+#forest_background{
+    font-family: fantasy;
+    font-size:20px;
+}
+
+#pinterest{
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+#instagram{
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+#google_sites{
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+#fable{
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+
+
+
+
+
+
+background-image: url("../images/background.png");
+background-size:cover;
+background-repeat:no-repeat;
+
+
+
