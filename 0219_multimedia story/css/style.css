@@ -1,0 +1,12 @@
+body{
+font-family:cursive;
+font-size: 25px;
+margin-left:10%;
+margin-right:10%;
+}
+
+.img
+{
+    width:70%;
+    justify-content: center;
+}
