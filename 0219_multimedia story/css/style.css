@@ -3,10 +3,21 @@ font-family:cursive;
 font-size: 25px;
 margin-left:10%;
 margin-right:10%;
+background-color:antiquewhite;
 }
 
 .img
 {
     width:70%;
     justify-content: center;
+}
+
+#restart
+{
+    text-decoration: none;
+}
+
+.vid
+{
+    width:70%;
 }
