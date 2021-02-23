@@ -1,0 +1,30 @@
+.text
+{
+    margin-top:40%;
+    font-family: courier;
+    font-size:15%;
+}
+
+.firstline
+{
+margin:auto;
+}
+
+
+.rotate
+{
+    transform:rotate(-180deg);
+    text-align:center;
+}
+
+.rotate2
+{
+    padding-left:45em;
+    text-align:left;
+}
+
+.text4
+{
+    padding-left:60em;
+    text-align:left;
+}

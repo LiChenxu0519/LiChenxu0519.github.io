@@ -1,0 +1,20 @@
+.body
+{
+    position: relative;
+}
+
+.text
+{
+    margin-top: 25%;
+    text-align: center;
+    width: 45%;
+    margin-left: 25%;
+    font-size:200%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.punc
+{
+    position:absolute;
+    font-size:1000%;
+}
