@@ -44,7 +44,7 @@ function type(time) {
       // 下次开始删除文字
       isDeleting = true;
       // 删除文字的间隔为200毫秒
-      delta = 200;
+      delta = 1;
       // 额外等待1.2秒后再删除
       start = time + 1200;
     }
@@ -53,7 +53,7 @@ function type(time) {
     if (charIndex < 0) {
       isDeleting = false;
       // 额外增加200毫秒延迟
-      start = time + 200;
+      start = time + 1;
       // 把index移动到下一个文本，并且在文本数组元素个数中循环
       index = ++index % texts.length;
     }
