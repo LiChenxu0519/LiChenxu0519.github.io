@@ -37,23 +37,28 @@ main {
 }
 
 #comma{
-
+  text-decoration:none;
+  color:black;
 }
 
 #apostrophe{
-
+  text-decoration:none;
+  color:black;
 }
 
 #period{
-
+  text-decoration:none;
+  color:black;
 }
 
-#semicolon{
-
+#colon{
+  text-decoration:none;
+  color:black;
 }
 
 #exclamation{
-
+  text-decoration:none;
+  color:black;
 }
 
 

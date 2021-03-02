@@ -8,7 +8,7 @@ let index = 0;
 // 当前显示第几个字
 let charIndex = 0;
 // 每个字显示间隔默认是500毫秒
-let delta = 500;
+let delta = 100;
 
 // 记录动画执行开始时间
 let start = null;
@@ -46,7 +46,7 @@ function type(time) {
       // 删除文字的间隔为200毫秒
       delta = 1;
       // 额外等待1.2秒后再删除
-      start = time + 1200;
+      start = time + 1000;
     }
 
     // 如果文字删除完毕
