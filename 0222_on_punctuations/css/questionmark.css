@@ -2,7 +2,7 @@ body
 {
     font-family: courier;
     font-size:15%;
-    background-color:rgb(0, 0, 0);
+    background-color: black;
 }
 
 .firstline
@@ -13,13 +13,13 @@ body
 }
 
 
-.firstrotate
+#firstrotate
 {
     transform:rotate(-180deg);
     text-align:center;
 }
 
-.first2
+#first2
 {
     padding-left:45em;
     text-align:left;
@@ -30,6 +30,17 @@ body
     padding-left:60em;
     text-align:left;
     color:red;
+}
+
+#thirdrepeat {
+    color: red;
+    margin-left:40%;
+    margin-top: 12.5%;
+    display: none;
+}
+
+span:hover + #thirdrepeat {
+    display: block;
 }
 
 .second{
@@ -55,9 +66,3 @@ z-index:2;
     top: 45%;
 }
 
-#thirdrepeat{
-    display:none;
-    margin-left:40%;
-    margin-top: 12.5%;
-    color: red;
-}
