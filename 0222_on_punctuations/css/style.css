@@ -16,7 +16,7 @@ main {
   
 .punct{
   z-index:2;
-  font-size:15em;
+  font-size:8em;
   position:absolute;
   line-height:1;
 }
@@ -34,31 +34,43 @@ main {
 #questionmark{
   text-decoration:none;
   color:black;
+  cursor: pointer;
 }
 
 #comma{
   text-decoration:none;
   color:black;
+  cursor: pointer;
 }
 
 #apostrophe{
   text-decoration:none;
   color:black;
+  cursor: pointer;
 }
 
 #period{
   text-decoration:none;
   color:black;
+  cursor: pointer;
 }
 
 #colon{
   text-decoration:none;
   color:black;
+  cursor: pointer;
+}
+
+#semi-colon{
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
 }
 
 #exclamation{
   text-decoration:none;
   color:black;
+  cursor: pointer;
 }
 
 
@@ -93,4 +105,17 @@ span.mark {
   font-size:1em;
   font-family:Verdana;
   text-align:center;
+}
+
+
+@media screen and (min-width: 375px) 
+{
+    .punct{font-size: 15em;}
+    #firstline{font-size:1.25em;}
+    #bodytext1{font-size:1.25em;}
+    #bodytext2{font-size:1.25em;}
+    #bodytext3{font-size:1.25em;
+                margin-left:30%;
+                margin-right:30%;
+              }
 }

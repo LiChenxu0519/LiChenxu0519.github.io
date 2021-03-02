@@ -1,0 +1,17 @@
+body{
+    background-color:black;
+}
+
+#uninteresting
+{
+    padding-left:60em;
+    text-align:left;
+    color:red;
+}
+
+#thirdrepeat {
+    color: red;
+    margin-left:40%;
+    margin-top: 12.5%;
+    display: none;
+}

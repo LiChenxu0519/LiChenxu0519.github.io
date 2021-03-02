@@ -1,17 +1,29 @@
 body
 {
     font-family: courier;
-    font-size:15%;
+    font-size:20px;
     background-color: black;
+    display:block;
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:black;
 }
 
 .firstline
 {
-    margin-top:30%;
+    margin-top:10%;
     position:relative;
     z-index:1;
 }
 
+#firstquote
+{
+margin:0;
+text-align:justify;
+}
 
 #firstrotate
 {
@@ -21,48 +33,53 @@ body
 
 #first2
 {
-    padding-left:45em;
-    text-align:left;
+    margin-right: 10%;
+    text-align: right;
+}
+
+#first3{
+    margin-left: 15em;
 }
 
 #uninteresting
 {
-    padding-left:60em;
+    padding-left:30em;
     text-align:left;
     color:red;
-}
-
-#thirdrepeat {
-    color: red;
-    margin-left:40%;
-    margin-top: 12.5%;
-    display: none;
-}
-
-span:hover + #thirdrepeat {
-    display: block;
+    cursor: pointer;
 }
 
 .second{
-float:right;
-top: 65%;
-left: 70%;
-position:absolute;
-z-index:2;
+    margin-top:15%;
 }
 
-.second1{
+#second1{
     line-height:0.2;
 }
 
-.second2{
+#second2{
     line-height:0.2;
+}
+
+#secondquote{
+    color:red;
+    display:none;
+    cursor: pointer;
 }
 
 .third{
     padding:20%;
     z-index: 3;
-    position: absolute;
     top: 45%;
+}
+
+#thirdrepeat {
+    color: red;
+    margin-left: 25%;
+    margin-top: -13.5%;
+    float: right;
+    position: absolute;
+    display: none;
+    cursor: pointer;
 }
 

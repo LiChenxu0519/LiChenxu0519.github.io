@@ -1,0 +1,43 @@
+body
+{
+    font-family: courier;
+    font-size:20px;
+    display:block;
+    background-color:black;
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+
+.bodytext{
+    margin-top:20%;
+    text-align: center;
+}
+
+#firstred{
+    color:red;
+    padding:3%;
+}
+
+#red2{
+    color:red;
+    display:none;
+    cursor: pointer;
+}
+
+#firstrotate{
+    transform:rotate(-180deg);
+    text-align:center;
+    font-weight: bolder;
+    cursor: pointer;
+    padding:2em;
+}
+
+
+#bodytext4{
+    display:none;
+    text-align:right;
+}

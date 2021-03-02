@@ -1,0 +1,43 @@
+body
+{
+    font-family: courier;
+    background-color:rgb(236, 236, 236);
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+
+#firstline{
+    margin-top:10%;
+    margin-bottom:5%;
+    font-size:2em;
+    color:rgb(0, 177, 24);
+    cursor: pointer;
+}
+
+
+#body{
+    margin-left:30%;
+    margin-right:30%;
+    display:none;
+    cursor: pointer;
+}
+
+#bodytext{
+    float:right;
+    font-size:1.25em;
+}
+
+#bodytext2{
+    float:left;
+    font-size:1.25em; 
+}
+
+#readable{
+    margin-left:30%;
+    margin-right:30%;
+    cursor: pointer;
+}

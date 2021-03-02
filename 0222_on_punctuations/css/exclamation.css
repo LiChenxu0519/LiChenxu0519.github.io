@@ -1,0 +1,32 @@
+body
+{
+    font-family: courier;
+    font-size:20px;
+    display:block;
+    background-color: black;
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+
+.bodytext{
+    margin-top:20%;
+}
+
+#unnecessary{
+    color:red;
+    cursor: pointer;
+}
+
+#ugly{
+    color:red;
+    cursor: pointer; 
+    display:none;
+}
+
+#quotation{
+    cursor:pointer;
+}

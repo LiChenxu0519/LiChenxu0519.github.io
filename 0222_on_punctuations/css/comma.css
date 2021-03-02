@@ -1,0 +1,51 @@
+body
+{
+    font-family: courier;
+    background-color:rgb(236, 236, 236);
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+
+#firstline{
+    font-size:1.5em;
+    margin-top:10%;
+    cursor: pointer;
+}
+
+#bodytext1{
+    font-size:1.5em;
+    display:none;
+    cursor: pointer;
+}
+
+#bodytext2{
+    font-size:1.5em;
+    display:none;
+    cursor: pointer;
+}
+
+#bodytext3{
+    color:rgb(0, 177, 24);
+    font-size:1.25em;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:left;
+    display:none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px) 
+{
+    .home{font-size: 2em;}
+    #firstline{font-size:1.25em;}
+    #bodytext1{font-size:1.25em;}
+    #bodytext2{font-size:1.25em;}
+    #bodytext3{font-size:1.25em;
+                margin-left:30%;
+                margin-right:30%;
+              }
+}
