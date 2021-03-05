@@ -16,7 +16,7 @@ main {
   
 .punct{
   z-index:2;
-  font-size:8em;
+  font-size:15em;
   position:absolute;
   line-height:1;
 }
@@ -108,14 +108,14 @@ span.mark {
 }
 
 
-@media screen and (min-width: 375px) 
+@media screen and (max-width: 375px) 
 {
-    .punct{font-size: 15em;}
-    #firstline{font-size:1.25em;}
-    #bodytext1{font-size:1.25em;}
-    #bodytext2{font-size:1.25em;}
-    #bodytext3{font-size:1.25em;
-                margin-left:30%;
-                margin-right:30%;
-              }
+    .punct{
+    font-size: 8em;
+    line-height:2;}
+
+   h1{margin-top: 5%;
+    margin-left: 5%;
+    }
+
 }

@@ -41,3 +41,21 @@ body
     margin-right:30%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 375px) 
+{
+    .home{
+        font-size:3em;
+    }
+    .firstline{
+    font-size: 2em;}
+
+   h1{margin-top: 50%;
+    margin-left: 50%;
+    }
+
+    .third{
+        margin-left: 5%;
+    }
+
+}

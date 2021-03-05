@@ -1,7 +1,7 @@
 body
 {
     font-family: courier;
-    font-size:20px;
+    font-size:2em;
     background-color: black;
     display:block;
 }
@@ -62,13 +62,13 @@ text-align:justify;
 }
 
 #secondquote{
+    font-size:2em;
     color:red;
     display:none;
     cursor: pointer;
 }
 
 .third{
-    padding:20%;
     z-index: 3;
     top: 45%;
 }
@@ -83,3 +83,26 @@ text-align:justify;
     cursor: pointer;
 }
 
+@media screen and (max-width: 375px) 
+{
+    .home{
+        font-size:3em;
+    }
+
+    .firstline{
+        font-size:3em;
+    }
+    
+    .punct{
+    font-size: 15em;
+    line-height:2;}
+
+   h1{margin-top: 50%;
+    margin-left: 50%;
+    }
+
+    .third{
+        margin-left: 5%;
+    }
+
+}
