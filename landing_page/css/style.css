@@ -1,0 +1,27 @@
+body{
+    background-color: #e1ece1;
+}
+
+#folder1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    transition: transform .1s;
+}
+
+#folder1:hover {
+    transform: scale(1.2); 
+  }
+
+#folder2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    transition: transform .1s;
+}
+
+#folder2:hover {
+    transform: scale(1.2); 
+  }
