@@ -55,7 +55,7 @@ base('Table 1').select({
       // create container for each song
   
       // add song titles
-      var songTitle = document.createElement("h1");
+      var songTitle = document.createElement("h2");
       songTitle.innerText = song.fields.Album_title;
       document.body.append(songTitle);
   
