@@ -1,5 +1,9 @@
 body{
     background-color:#5a6e57;
+    font-family:Karla;
+    font-weight:800;
+    color:white;
+    transition:0.5s;
 }
 
 .song_container {
@@ -9,16 +13,8 @@ body{
     grid-gap: 20px;
     padding: 1rem;
     box-sizing: border-box;
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius:20px;
-}
-
-.image_container{
-    position:absolute;
-    right:10%;
-    top:10%;
-    width:50%;
-    height:auto;
 }
 
 img{
@@ -26,3 +22,19 @@ img{
     border-radius: 50%;
     border: 3px solid green;
 }
+
+.album_container{
+    position:absolute;
+    right:10%;
+    top:10%;
+    width:50%;
+    height:auto;
+    display:none;
+}
+
+.album_container.active {
+    display: block;
+}  
+
+
+

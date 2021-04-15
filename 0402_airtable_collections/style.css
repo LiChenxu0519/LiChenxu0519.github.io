@@ -59,13 +59,24 @@ img{
     margin-right:auto;
 }
 
+.genre_link {
+    position: relative;
+}
 
-.show {
+.genre_link::after {
+    content: attr(data-genre);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: yellow;
-    padding: 20px;
-    display: none;
-  }
-  
-.genre_link1:hover + .show{
-    display:block;
+    opacity: 0;
+}
+
+.genre_link:hover::after {
+    opacity: 1;
 }

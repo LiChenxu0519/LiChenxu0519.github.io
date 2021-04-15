@@ -65,8 +65,8 @@ songs.forEach(song => {
 
     //create container for album cover
     var albumContainer = document.createElement("div");
-    albumContainer.classList.add("image_container");
-    document.querySelector(".image_container").append(albumContainer);
+    albumContainer.classList.add("album_container");
+    document.querySelector(".album_container").append(albumContainer);
 
     // add song titles
     var songTitle = document.createElement("p");
@@ -88,9 +88,13 @@ songs.forEach(song => {
 
     //add album cover image
     var albumCover = document.createElement("img");
-    albumContainer.classList.add("albumCover");
+    albumCover.classList.add("albumCover");
     albumCover.src = song.fields.album_cover [0].url;
     albumContainer.append(albumCover);
+  });
 
-});
+    // add event listener to add active class to song container
+  songContainer.addEventListener("click", function(event) {
+    albumCover.classList.toggle("active");
+  });
 }
