@@ -86,12 +86,6 @@ songs.forEach(song => {
     albumTitle.innerText = song.fields.album;
     songContainer.append(albumTitle);
 
-    // add music video
-    var musicVideo = document.createElement("button");
-    songContainer.classList.add("musicVideo");
-    musicVideo.innerText= song.fields.music_video;
-    songContainer.append(musicVideo);
-
     //add album cover image
     var albumCover = document.createElement("img");
     albumContainer.classList.add("albumCover");

@@ -43,18 +43,13 @@ img{
 .genre_text{
     font-size:15px;
     margin-right:10%;
-    margin-top:70%;
+    margin-top:-10%;
     text-align: right;
     text-decoration: none;
     list-style: none;
     color:rgb(96, 99, 92);
 }
 
-.genre_link{
-    text-decoration: none;
-    color:rgb(96, 99, 92);
-    transition:0.5s;
-}
 
 #disk{
     display:block;
@@ -64,29 +59,13 @@ img{
     margin-right:auto;
 }
 
-.genre_link:hover{
-    color: rgba(0,0,0,.1);
+
+.show {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+  }
+  
+.genre_link1:hover + .show{
+    display:block;
 }
-
-/* Split the screen in half */
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .left {
-    left: 0;
-  }
-  
-  /* Control the right side */
-  .right {
-    right: 0;
-    background-color: rgb(255, 203, 203);
-  }
-
