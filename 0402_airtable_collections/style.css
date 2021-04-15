@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Karla;
+    font-weight:800;
+    transition:0.5s;
+}
+
+.genre{
+    position: relative;
+}
+
+.number{
+    font-size:25px;
+    position: absolute;
+    bottom: 55%;
+    right: 60%;
+    text-align: left;
+    text-decoration: none;
+    color:rgb(96, 99, 92);
+}
+
+.genre_text{
+    font-size:15px;
+    position: absolute;
+    bottom: 28%;
+    right: 37%;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    color:rgb(96, 99, 92);
+}
+
+.genre_link{
+    text-decoration: none;
+    color:rgb(96, 99, 92);
+    transition:0.5s;
+}
+
+#disk{
+    display:block;
+    margin-top:-5%;
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.genre_link:hover{
+    color: rgba(0,0,0,.1);
+}
