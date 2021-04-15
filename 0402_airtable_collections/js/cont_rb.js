@@ -13,7 +13,7 @@ base("playlists")
 .select({
         // Selecting the first 21 records in Grid view:
         maxRecords: 12,
-        view: "cont_pop"
+        view: "cont_rb"
 })
     .eachPage(gotPageOfSongs, gotAllSongs);
 

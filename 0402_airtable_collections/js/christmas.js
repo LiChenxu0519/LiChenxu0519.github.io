@@ -94,7 +94,7 @@ songs.forEach(song => {
   });
 
     // add event listener to add active class to song container
-  songContainer.addEventListener("click", function(event) {
-    albumCover.classList.toggle("active");
+  songContainer.addEventListener("click", function() {
+    img.classList.toggle("active");
   });
 }

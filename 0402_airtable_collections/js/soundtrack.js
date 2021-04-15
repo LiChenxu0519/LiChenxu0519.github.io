@@ -11,9 +11,9 @@ var base = new Airtable({ apiKey: "keyTMrVY4HuYAgWUi" }).base(
 // specify functions that will receive the data
 base("playlists")
 .select({
-        // Selecting the first 21 records in Grid view:
+        // Selecting the first 6 records in Grid view:
         maxRecords: 12,
-        view: "cont_pop"
+        view: "soundtrack"
 })
     .eachPage(gotPageOfSongs, gotAllSongs);
 
