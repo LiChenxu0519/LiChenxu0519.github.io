@@ -92,10 +92,12 @@ p{
 
 img {
     transition: transform 3s ease-in-out;
+    cursor: pointer;
   }
 
 img:hover {
     transform: rotate(360deg);
+    cursor: pointer;
 }
 
 
