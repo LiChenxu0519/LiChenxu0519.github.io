@@ -1,38 +1,123 @@
 body{
-    background-color:#bd6b6b;
+    background-color:#ffacac;
     font-family:Karla;
     font-weight:800;
     color:white;
     transition:0.5s;
 }
 
-.song_container {
-    width: 50%;
+.home{
+    position:absolute;
+    top:3%;
+    right:2%;
+    text-decoration: none;
+    font-family:Karla;
+    font-weight:800;
+    font-size:2em;
+    color:white;
+}
+
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    row-gap: 15px;
+    justify-content: right;
+    padding: 0px;
+}
+
+.song_container {
+    margin:20% 2% 2%;
+    background-color:rgb(118, 170, 109);
+    width: 95%;
     padding: 1rem;
     box-sizing: border-box;
     border: 1px solid white;
     border-radius:20px;
 }
 
-img{
-    width:100%;
+.album-cover{
+    margin-left:50px;
+    width:70%;
     border-radius: 50%;
-    border: 3px solid green;
+    border: 5px solid white;
 }
 
-.album_container{
-    position:absolute;
-    right:10%;
-    top:10%;
-    width:50%;
-    height:auto;
+.songTitle{
+    display:none;
+    font-size:2rem;
+}
+
+.songTitle.active{
+    display:block;
+}
+
+.albumTitle{
     display:none;
 }
 
-.album_container.active {
+.albumTitle.active {
     display: block;
-}  
+  }
+
+.nameOfArtist{
+    display:none;
+}
+
+.nameOfArtist.active{
+    display:block;
+}
+
+.albumCover{
+    position:absolute;
+    right:10%;
+    top:10%;
+    width:30%;
+    height:auto;
+}
+
+p{
+    font-size:1rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        transition:0.5s;
+    }
+
+    .container{
+        display:block;
+        width:100%;
+    }
+
+    img{
+        width:100%;
+        border-radius: 50%;
+        border: 4px solid white;
+    }
+
+    .song_container {
+        margin:25% 15% 2%;
+        width: 70%;
+        box-sizing: border-box;
+        border: 1px solid white;
+        border-radius: 20px;
+    }    
+
+    .songTitle,.albumTitle,.nameOfArtist{
+        font-size:1em;
+        margin-left: 15px;
+    }
+
+    img{
+        margin:auto;
+    }
+
+    .album-cover{
+        width:100%;
+        margin-left:auto;
+    }
+}
 

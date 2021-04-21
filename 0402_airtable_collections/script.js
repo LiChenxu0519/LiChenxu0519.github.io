@@ -73,3 +73,12 @@ function setNewImg9 (){
 function old9 (){
     document.getElementById("cont_pop").src="image/genre_icon_grey.png";    
 }
+
+
+var color = ["#ffe7da","#deffda","#f695ff","#95ffc9","#85a7f1","#b3ccb3","#b689ff","#ffacac"];
+var i = 0;
+document.querySelector("button").addEventListener("click",function()
+    {
+    i=i<color.length ? ++i:0;
+    document.querySelector("body").style.background=color[i]}
+    )

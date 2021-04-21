@@ -8,6 +8,9 @@ body{
     position: relative;
 }
 
+.mobile{
+    display:none;}
+
 .genre_name{
     margin-right:10%;
     font-size:25px;
@@ -22,6 +25,12 @@ body{
     margin-top: 5%;
     margin-left: 25%;
     grid-template-columns:1fr 1fr 1fr;
+}
+
+button{
+    border:none;
+    outline:none;
+    background:none;
 }
 
 img{
@@ -53,8 +62,87 @@ img{
 
 
 @media only screen and (max-width: 600px) {
+    body{
+        background-color:grey;
+    }
+
+    .disk{
+        height: 370px;
+        opacity: 77%;
+        margin-top: 10%;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .links{
+        font-size: 20px;
+        margin-top: 40%;
+        margin-right:5%;
+        text-align: right;
+        text-decoration: none;
+        list-style: none;
+        color: rgb(96, 99, 92);
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .pop{
+        color:#e7c2af;
+    }
+
+    .christmas{
+        color:#deffda ;
+    }
+
+
+    .hippop_rap{
+        color:#f695ff ;
+    }
+
+
+    .soundtrack{
+        color:#95ffc9 ;
+    }
+
+
+    .rb_soul{
+        color:#fffd95;
+    }
+
+
+    .hip_rb_soul{
+        color:#85a7f1 ;
+    }
+
+
+    .other_pop{
+        color:#b3ccb3;
+    }
+
+
+    .cont{
+        color:#b689ff ;
+    }
+
+
+    .cont_pop{
+        color:#ffacac ;
+    }
+
+
+    .genre_link{
+        text-decoration: none;
+        color:rgb(96, 99, 92);
+        transition:0.5s;
+    }
+
 
     .genre{
+        display:none;
         width:100%;
     }
     

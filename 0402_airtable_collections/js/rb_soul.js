@@ -68,33 +68,37 @@ songs.forEach(song => {
     albumContainer.classList.add("album_container");
     document.querySelector(".album_container").append(albumContainer);
 
+    //add album cover image
+    var albumCover = document.createElement("img");
+    albumCover.classList.add("album-cover");
+    albumCover.src = song.fields.album_cover [0].url;
+    songContainer.append(albumCover);
+
     // add song titles
-    var songTitle = document.createElement("p");
-    songContainer.classList.add("songTitle");
+    var songTitle = document.createElement("div");
+    songTitle.classList.add("songTitle");
     songTitle.innerText = song.fields.song;
     songContainer.append(songTitle);
 
     // add artists
     var nameOfArtist = document.createElement("p");
-    songContainer.classList.add("nameOfArtist");
+    nameOfArtist.classList.add("nameOfArtist");
     nameOfArtist.innerText = song.fields.artist;
     songContainer.append(nameOfArtist);
 
     // add album title
     var albumTitle = document.createElement("p");
-    songContainer.classList.add("albumTitle");
+    albumTitle.classList.add("albumTitle");
     albumTitle.innerText = song.fields.album;
     songContainer.append(albumTitle);
 
-    //add album cover image
-    var albumCover = document.createElement("img");
-    albumCover.classList.add("albumCover");
-    albumCover.src = song.fields.album_cover [0].url;
-    albumContainer.append(albumCover);
-  });
 
     // add event listener to add active class to song container
-  songContainer.addEventListener("click", function(event) {
-    albumCover.classList.toggle("active");
-  });
+    songContainer.addEventListener("click", function(event) {
+      songTitle.classList.toggle("active");
+      albumTitle.classList.toggle("active");
+      nameOfArtist.classList.toggle("active");
+    })
+
+});
 }
