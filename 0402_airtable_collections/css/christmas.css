@@ -103,6 +103,8 @@ img:hover {
 
 @media only screen and (max-width: 600px) {
     body{
+        font-family:Karla;
+        font-weight:700;
         transition:0.5s;
     }
 
