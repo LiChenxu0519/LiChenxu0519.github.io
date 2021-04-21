@@ -1,5 +1,5 @@
 body{
-    background-color:#deffda;
+    background-color:#b5f5ae;
     font-family:Karla;
     font-weight:800;
     color:white;
@@ -11,6 +11,16 @@ body{
     top:3%;
     right:2%;
     text-decoration: none;
+    font-family:Karla;
+    font-weight:800;
+    font-size:2em;
+    color:white;
+}
+
+.title{
+    position:absolute;
+    top:3%;
+    left:2%;
     font-family:Karla;
     font-weight:800;
     font-size:2em;
@@ -79,6 +89,13 @@ p{
     font-size:1rem;
 }
 
+img {
+    transition: transform 3s ease-in-out;
+  }
+
+img:hover {
+    transform: rotate(360deg);
+}
 
 
 
