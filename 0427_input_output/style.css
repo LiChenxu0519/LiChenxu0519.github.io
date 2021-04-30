@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:rgb(63, 63, 63);
+    background-image: linear-gradient(to right, rgb(140, 179, 132) , rgb(202, 202, 134));
     min-width: 800px;
     min-height: 100%;
     font-family:Rajdhani;
@@ -49,14 +49,6 @@ body {
     right: 15px;
   }
 
-  .twitch {
-    color: #6441a5;
-  }
-
-  .yt {
-    color: #c4302b;
-  }
-
   .info span {
     font-weight: bold;
   }
@@ -69,13 +61,14 @@ body {
     -webkit-text-stroke: 4px white;
   }
 
+  .hidden {
+    display: none;
+  }
+
+  /*
   .rainbow {
     color: hotpink;
     animation: rainbow 1500ms ease infinite;
-  }
-
-  .hidden {
-    display: none;
   }
 
   .secretwow {
@@ -103,6 +96,7 @@ body {
   .spinRight {
     animation: spinRight 700ms forwards infinite;
   }
+
 
   .how {
     width: 33px;
@@ -152,6 +146,7 @@ body {
       transform: rotate(0deg);
     }
   }
+*/
 
   @media print {
     .info {

@@ -79,9 +79,9 @@ function injectWow() {
     fibonacciWows.push(newWow)
   }
 
-  if (wows === 10) {
-    lengthEl.innerText = "normal"
-  }
+/*  if (wows === 10) {
+    lengthEl.innerText = "good"
+  }*/
 
   if (wows === 50) {
     lengthEl.innerText = "good"
