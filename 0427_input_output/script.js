@@ -66,8 +66,8 @@ function injectWow() {
 
   const newWow = document.createElement("div")
   newWow.className = "textwow"
-  newWow.innerText = "Procrasinating..."
-  newWow.style.left = 100 + Math.random() * (window.innerWidth - 300) + "px"
+  newWow.innerText = "You are such a procrastinator!"
+  newWow.style.left = 50 + Math.random() * (window.innerWidth - 200) + "px"
   newWow.style.top = wrapper.offsetHeight - 200 + "px"
   document.body.appendChild(newWow)
 
@@ -115,7 +115,7 @@ function injectWow() {
     lengthEl.innerText = "unbelievable"
   }
 
-  if (wows > 200 && Math.random() > 0.993) {
+  if (wows > 20 && Math.random() > 0.993) {
     injectLargeWow()
   }
 }
@@ -128,7 +128,7 @@ function injectLargeWow() {
 
   const newWow = document.createElement("div")
   newWow.className = "largewow"
-  newWow.innerText = "PROCRASINATING..."
+  newWow.innerText = "PROCRATSINATOR"
   newWow.style.left = "30%"
   newWow.style.top = wrapper.offsetHeight - 200 + "px"
   document.body.appendChild(newWow)
@@ -163,6 +163,12 @@ function shuffleArray(array) {
     const j = Math.floor(Math.random() * (i + 1))
     ;[array[i], array[j]] = [array[j], array[i]]
   }
+}
+
+/*document.addEventListener("click", onBodyClick) */
+
+function myFunction() {
+  document.getElementsByClassName("head").innerHTML = 'New Phrase';
 }
 
 /*/function onBodyClick(e) {
