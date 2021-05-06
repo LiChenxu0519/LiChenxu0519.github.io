@@ -60,10 +60,8 @@ function injectNeck(entry) {
   injectWow()
 }
 
-document.getElementsByClassName("textwow").addEventListener("click", myFunction);
-
-function myFunction() {
-  document.getElementsByClassName("textwow").innerHTML = "YOU CLICKED ME!";
+function clickAlert() {
+  alert("Procrastination is the thief of time.");
 }
 
 function injectWow() {
@@ -72,7 +70,8 @@ function injectWow() {
 
   const newWow = document.createElement("div")
   newWow.className = "textwow"
-  newWow.innerText = "（＾∇＾）"
+  newWow.id = "textwow"
+  newWow.innerText = "amazing"
   newWow.style.left = Math.random() * (window.innerWidth - 200) + "px"
   newWow.style.top = wrapper.offsetHeight - 200 + "px"
   document.body.appendChild(newWow)
@@ -121,10 +120,13 @@ function injectWow() {
     lengthEl.innerText = "unbelievable"
   }
 
-  if (wows > 20 && Math.random() > 0.993) {
+  if (wows > 20 && Math.random() > 0.992) {
     injectLargeWow()
   }
 }
+
+
+
 
 function injectLargeWow() {
   largewows++
@@ -134,9 +136,9 @@ function injectLargeWow() {
 
   const newWow = document.createElement("div")
   newWow.className = "largewow"
-  newWow.innerText = "PROCRATSINATOR"
+  newWow.innerText = "You have excellent procrastination skill!"
   newWow.style.left = "30%"
-  newWow.style.top = wrapper.offsetHeight - 200 + "px"
+  newWow.style.top = wrapper.offsetHeight - 280 + "px"
   document.body.appendChild(newWow)
 }
 
@@ -171,13 +173,9 @@ function shuffleArray(array) {
   }
 }
 
-/*document.addEventListener("click", onBodyClick) */
+/*/document.addEventListener("click", onBodyClick) 
 
-function myFunction() {
-  document.getElementsByClassName("head").innerHTML = 'New Phrase';
-}
-
-/*/function onBodyClick(e) {
+function onBodyClick(e) {
   if (e.target.className === "textwow" && largewows >= 15) {
     rainbowwows++
     e.target.classList.add("rainbow")

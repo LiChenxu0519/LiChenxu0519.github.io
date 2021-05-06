@@ -52,3 +52,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'NYCD';
+    src: url('NothingYouCouldDo.woff2') format('woff2'),
+        url('NothingYouCouldDo.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

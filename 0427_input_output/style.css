@@ -28,6 +28,7 @@ body {
   
   pre {
     margin: 0;
+    cursor:pointer;
   }
 
   h1 {
@@ -37,14 +38,13 @@ body {
   }
 
   .textwow {
-    color:rgb(120, 131, 124);
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    cursor: pointer;
+    color:rgb(130, 187, 150);
+    cursor: none;
     position: absolute;
     margin:5px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-
+    font-family: NYCD;
   }
 
   .left {
@@ -61,10 +61,11 @@ body {
 
   .largewow {
     position: absolute;
-    font-size: 140px;
+    font-size: 100px;
     transform: translateX(-30%);
     z-index: -2;
-    -webkit-text-stroke: 4px white;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke: 3px rgb(130, 187, 150);
   }
 
   .hidden {
@@ -76,7 +77,7 @@ body {
     color: hotpink;
     animation: rainbow 1500ms ease infinite;
   }
-
+  /*
   .secretwow {
     display: inline-block;
     cursor: pointer;
