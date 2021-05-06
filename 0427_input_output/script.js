@@ -60,14 +60,20 @@ function injectNeck(entry) {
   injectWow()
 }
 
+document.getElementsByClassName("textwow").addEventListener(onclick, myFunction);
+
+function myFunction() {
+  document.getElementsByClassName("textwow").innerHTML = "YOU CLICKED ME!";
+}
+
 function injectWow() {
   wows++
   wowEl.innerText = wows
 
   const newWow = document.createElement("div")
   newWow.className = "textwow"
-  newWow.innerText = "You are such a procrastinator!"
-  newWow.style.left = 50 + Math.random() * (window.innerWidth - 200) + "px"
+  newWow.innerText = "（＾∇＾）"
+  newWow.style.left = Math.random() * (window.innerWidth - 200) + "px"
   newWow.style.top = wrapper.offsetHeight - 200 + "px"
   document.body.appendChild(newWow)
 

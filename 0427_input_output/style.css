@@ -1,10 +1,12 @@
 body {
     margin: 0;
-    background: linear-gradient(to right, rgb(140, 179, 132) , rgb(202, 202, 134));
-    min-width: 800px;
+    background: rgb(12,22,51);
+    background: linear-gradient(0deg, rgba(12,22,51,1) 0%, rgba(36,58,124,1) 10%, rgba(133,160,215,1) 20%, rgba(215,238,234,1) 30%, rgba(251,255,215,1) 40%, rgba(253,255,235,1) 50%, rgba(250,255,224,1) 60%, rgba(200,225,229,1) 70%, rgba(108,128,168,1) 80%, rgba(36,58,124,1) 90%, rgba(12,22,51,1) 100%);
+    background-size: 100% 5000vh;
+    background-repeat: repeat-y;
     min-height: 100%;
     font-family:Rajdhani;
-    color:white;
+    color:rgb(148, 172, 157);
   }
 
   .wrapper {
@@ -17,6 +19,7 @@ body {
     position: fixed;
     top: 20px;
     left: 20px;
+    -webkit-text-stroke: 1px rgb(148, 172, 157);
   }
 
   .stat{
@@ -35,11 +38,13 @@ body {
 
   .textwow {
     color:rgb(120, 131, 124);
-    /*cursor: pointer;*/
-    position: absolute;
-    font-size: 45px;
-    font-weight: bold;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
+    cursor: pointer;
+    position: absolute;
+    margin:5px;
+    font-size: 40px;
+    font-weight: bold;
+
   }
 
   .left {
