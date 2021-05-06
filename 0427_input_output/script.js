@@ -60,7 +60,7 @@ function injectNeck(entry) {
   injectWow()
 }
 
-document.getElementsByClassName("textwow").addEventListener(onclick, myFunction);
+document.getElementsByClassName("textwow").addEventListener("click", myFunction);
 
 function myFunction() {
   document.getElementsByClassName("textwow").innerHTML = "YOU CLICKED ME!";
