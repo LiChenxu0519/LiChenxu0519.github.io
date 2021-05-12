@@ -84,10 +84,6 @@ function injectWow() {
     fibonacciWows.push(newWow)
   }
 
-/*  if (wows === 10) {
-    lengthEl.innerText = "good"
-  }*/
-
   if (wows === 50) {
     lengthEl.innerText = "good"
   }
@@ -124,9 +120,6 @@ function injectWow() {
     injectLargeWow()
   }
 }
-
-
-
 
 function injectLargeWow() {
   largewows++
@@ -172,103 +165,5 @@ function shuffleArray(array) {
     ;[array[i], array[j]] = [array[j], array[i]]
   }
 }
-
-/*/document.addEventListener("click", onBodyClick) 
-
-function onBodyClick(e) {
-  if (e.target.className === "textwow" && largewows >= 15) {
-    rainbowwows++
-    e.target.classList.add("rainbow")
-    rainbowwowcontainer.classList.remove("hidden")
-    rainbowsEl.innerText = rainbowwows
-
-    // Check if they have achieved dogePrime
-    dogePrimeContainer.classList.remove("hidden")
-    let isPrime = primeWows.every((wowEl) => {
-      return wowEl.classList.contains("rainbow")
-    })
-
-    // Activate doge prime
-    if (dogePrime === false && isPrime === true) {
-      dogePrime = true
-      dogePrimeEl.innerText = "ACTIVE"
-      setupSecretWows()
-    }
-  }/*/
-
-/*/  if (e.target.className === "secretwow") {
-    e.target.classList.add("found")
-    secretwows++
-    secretWowEl.innerText = secretwows
-
-    if (secretwows === 100) {
-      fibonacciChallengeStarted = true
-      fibowowcontainer.classList.remove("hidden")
-    }
-  }/*/
-
-  /*/if (fibonacciChallengeStarted) {
-    if (
-      e.target.classList.contains("textwow") ||
-      e.target.classList.contains("secretwow")
-    ) {
-      if (e.target.classList.contains("spinLeft")) {
-        e.target.classList.remove("spinLeft")
-        e.target.classList.add("spinRight")
-      } else if (e.target.classList.contains("spinRight")) {
-        e.target.classList.remove("spinRight")
-        e.target.classList.add("spinLeft")
-      } else {
-        e.target.classList.add("spinLeft")
-      }
-
-      checkAllFiboWows()
-    }
-  }
-}
-
-function checkAllFiboWows() {
-  let successConfirmed = true
-
-  let right = true
-  for (let i = 0; i < fibonacciWows.length; i++) {
-    if (fibonacciWows[i].classList.contains(right ? "spinRight" : "spinLeft")) {
-      right = !right
-    } else {
-      successConfirmed = false
-    }
-  }
-
-  right = false
-  for (let i = 0; i < fibonacciSecretWows.length; i++) {
-    if (
-      fibonacciSecretWows[i].classList.contains(
-        right ? "spinRight" : "spinLeft"
-      )
-    ) {
-      right = !right
-    } else {
-      successConfirmed = false
-    }
-  }
-
-  if (successConfirmed) {
-    fibonacciChallengeComplete = true
-    fibo.innerText = "COMPLETE"
-  }
-}
-
-function setupSecretWows() {
-
-  const allnecks = document.querySelectorAll(".neck")
-  let allnecksAsArray = Array.apply(null, allnecks)
-  allnecksAsArray.shift() // remove first item
-
-  shuffleArray(allnecksAsArray)
-  shuffleArray(allnecksAsArray)
-
-
-}
-/*/
 
 observer.observe(neck)
