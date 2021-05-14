@@ -1,7 +1,7 @@
 body
 {
     font-family: courier;
-    font-size:2em;
+    font-size:20px;
     background-color: black;
     display:block;
 }
@@ -62,13 +62,13 @@ text-align:justify;
 }
 
 #secondquote{
-    font-size:2em;
     color:red;
     display:none;
     cursor: pointer;
 }
 
 .third{
+    padding:20%;
     z-index: 3;
     top: 45%;
 }

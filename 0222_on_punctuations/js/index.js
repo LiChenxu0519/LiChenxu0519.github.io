@@ -31,7 +31,7 @@ function type(time) {
       // 给展示文字的span新增一个字符，使用innerHTML来替换，charIndex自增1，然后返回新的字符串子串
       textEl.innerHTML = text.slice(0, ++charIndex);
       // 每个字符打印出来的速度不一样，模仿人工打字的速度
-      delta = 500 - Math.random() * 400;
+      delta = 300 - Math.random() * 370;
     } else {
       // 如果是删除效果，则把文字一个一个减掉
       textEl.innerHTML = text.slice(0, charIndex--);

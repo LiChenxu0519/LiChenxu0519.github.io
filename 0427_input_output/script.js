@@ -121,10 +121,15 @@ function injectWow() {
   }
 }
 
+const newWow = document.createElement("div");
+newWow.addEventListener("click", function () {
+    this.textContent = "YOU CLICKED ME";
+});
+
 function injectLargeWow() {
   largewows++
   largewowEl.innerText = largewows
-
+ 
   largeWowContainer.classList.remove("hidden")
 
   const newWow = document.createElement("div")
