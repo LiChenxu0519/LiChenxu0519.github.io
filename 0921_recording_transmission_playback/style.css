@@ -1,3 +1,56 @@
 body {
+    cursor:url('../0921_recording_transmission_playback/image_and_video/cursor.png');
     background-image:url('../0921_recording_transmission_playback/image_and_video/background.jpg');
-  }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color:black;
+}
+
+.transparent{
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 600px;
+    opacity: 1;
+    position: absolute;
+    left: 43%;
+    top: 20%;
+    z-index: 1;
+    transition: 0.3s;
+}
+ 
+.transparent:hover{
+    opacity: 0;
+}
+
+.transparent2{
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 600px;
+    opacity: 1;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    z-index: 1;
+    transition: 0.3s;
+}
+ 
+.transparent2:hover{
+    opacity: 0;
+}
+
+.transparent3{
+    background-color: rgb(0, 0, 0);
+    width: 900px;
+    height: 1000px;
+    opacity: 1;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    z-index: 1;
+    transition: 0.3s;
+}
+ 
+.transparent3:hover{
+    opacity: 0;
+}
