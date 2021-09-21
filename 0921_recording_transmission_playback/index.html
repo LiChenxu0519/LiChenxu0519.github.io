@@ -18,9 +18,11 @@
     <div class="transparent3">
     </div>
 
-    <div class="prompt">
-        <a id="prompt" href="signals.html">Wifi connection and signals becomes unstable.</a></div>
-   
+    <div id="prompt" onclick="showsecondquote()">Wifi connection and signals becomes unstable.</div>
+    <div id="secondquote" onclick="showthirdrepeat()">Your phone is almost out of battery.</div>
+    <div id="thirdrepeat" >
+        <a class="link" href="signals.html">what you can do now is only to wait till the morning...</a>
+    </div>
 
     <audio class="audio" controls autoplay muted>
         <source src="../0921_recording_transmission_playback/image_and_video/output(js-audio-converter.com).ogg" type="audio/ogg">
@@ -31,6 +33,14 @@
         alert("All of a sudden, the lights in the room turns off.");
         alert("You are now experienceing a power outage. ");
         alert("Be sure to open the audio while exploring the website.")
+
+        function showsecondquote() {
+            document.getElementById('secondquote').style.display="block";
+        }
+
+        function showthirdrepeat() {
+          document.getElementById("thirdrepeat").style.display="block";
+        }
     </script>
 </body>
 </html>

@@ -68,10 +68,34 @@ body {
     color: black;
     position: absolute;
     left: 73%;
-    top: 90%;
+    top: 85%;
     text-align: right;
 }
 
 #prompt:hover {
     color: red;
+}
+
+#secondquote{
+    color:red;
+    display:none;
+    position: absolute;
+    left: 73%;
+    top: 88%;
+    cursor: pointer;
+}
+
+#thirdrepeat {
+    color: red;
+    display: none;
+    position: absolute;
+    left: 73%;
+    top: 91%;
+    cursor: pointer;
+}
+
+.link{
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
 }
