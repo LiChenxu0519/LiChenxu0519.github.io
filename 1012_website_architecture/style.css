@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(21, 76, 255);
+}
+
+.video{
+    float:right;
+    width:70%;
+}
+
+.house{
+    width:100%;
+    bottom: -20;
+    position: absolute;
+
+}
+
+.flower{
+    width:70%;
+    bottom: 0;
+    opacity:90%;
+    position: absolute;
+}
+
+.distortion{
+    width:30%;
+    bottom: 0;
+    right:40%;
+    opacity:90%;
+    position: absolute;
+}
