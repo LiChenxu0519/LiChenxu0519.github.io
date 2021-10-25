@@ -2,6 +2,11 @@ body{
     background-color:rgb(21, 76, 255);
 }
 
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+}
+
 .video{
     float:right;
     width:70%;
@@ -25,6 +30,14 @@ body{
     width:30%;
     bottom: 0;
     right:40%;
+    opacity:90%;
+    position: absolute;
+}
+
+.bed{
+    width:60%;
+    bottom: 0;
+    right:2%;
     opacity:90%;
     position: absolute;
 }
