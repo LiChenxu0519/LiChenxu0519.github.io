@@ -1,8 +1,15 @@
+function showreveal() {
+  document.getElementById("reveal").style.display="block";
+}
+
+function showremake() {
+  document.getElementById("remake").style.display="block";
+}
+
 var flowerMotion = document.getElementById("flower");
 var disMotion = document.getElementById("dis");
 var bedMotion = document.getElementById("bed");
 var houseMotion = document.getElementById("house");
-var house3Motion = document.getElementById("house3");
 
 // section for flowerMotion
 flowerMotion.onmousedown = function(event) {
@@ -77,45 +84,6 @@ flowerMotion.onmousedown = function(event) {
   };
   
   houseMotion.ondragstart = function() {
-    return false;
-  };
-
-
-  // section for distortionMotion
-  disMotion.onmousedown = function(event) {
-
-    let shiftX = event.clientX - disMotion.getBoundingClientRect().left;
-    let shiftY = event.clientY - disMotion.getBoundingClientRect().top;
-  
-    disMotion.style.position = 'absolute';
-    disMotion.style.zIndex = 1000;
-    document.body.append(disMotion);
-  
-    moveAt(event.pageX, event.pageY);
-  
-    // moves the flowerMotion at (pageX, pageY) coordinates
-    // taking initial shifts into account
-    function moveAt(pageX, pageY) {
-        distortionMotion.style.left = pageX - shiftX + 'px';
-        distortionMotion.style.top = pageY - shiftY + 'px';
-    }
-  
-    function onMouseMove(event) {
-      moveAt(event.pageX, event.pageY);
-    }
-  
-    // move the flowerMotion on mousemove
-    document.addEventListener('mousemove', onMouseMove);
-  
-    // drop the flowerMotion, remove unneeded handlers
-    distortionMotion.onmouseup = function() {
-      document.removeEventListener('mousemove', onMouseMove);
-      disMotion.onmouseup = null;
-    };
-  
-  };
-  
-  disMotion.ondragstart = function() {
     return false;
   };
 
