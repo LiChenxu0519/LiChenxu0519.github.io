@@ -1,32 +1,54 @@
+
 body{
-    background-color:rgb(21, 76, 255);
+    background-image:url('image_and_video/house3.png');
+    background-size: 100%;
+    mix-blend-mode: difference;
 }
 
 h1{
     font-family:'Courier New', Courier, monospace;
     color:white;
+    position:absolute;
 }
 
 .video{
-    float:right;
-    width:70%;
+    width: 60%;
+    top: 0;
+    right: 0;
+    position: absolute;
 }
 
-.house{
+#house{
+    mix-blend-mode: difference;
+    cursor:-webkit-grab;
+    bottom:0;
+    left:0;
     width:100%;
-    bottom: -20;
     position: absolute;
 
 }
 
-.flower{
-    width:70%;
+#house3{
+    mix-blend-mode: difference;
+    bottom:0;
+    left:0;
+    width:100%;
+    position: absolute;
+
+}
+
+#flower{
+    mix-blend-mode: difference;
+    cursor:-webkit-grab;
+    width:50%;
+    left:0;
     bottom: 0;
     opacity:90%;
     position: absolute;
 }
 
-.distortion{
+#dis{
+    mix-blend-mode: difference;
     width:30%;
     bottom: 0;
     right:40%;
@@ -34,10 +56,12 @@ h1{
     position: absolute;
 }
 
-.bed{
-    width:60%;
+#bed{
+    cursor:pointer;
+    width:30%;
     bottom: 0;
     right:2%;
     opacity:90%;
     position: absolute;
+    mix-blend-mode: difference;
 }
