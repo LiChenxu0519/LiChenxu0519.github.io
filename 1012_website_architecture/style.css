@@ -1,8 +1,5 @@
-
 body{
-    background-image:url('image_and_video/house3.png');
-    background-size: 100%;
-    mix-blend-mode: difference;
+    background-color:rgb(21, 76, 255);
 }
 
 h1{
@@ -30,6 +27,7 @@ h1{
 
 #house3{
     mix-blend-mode: difference;
+    cursor:-webkit-grab;
     bottom:0;
     left:0;
     width:100%;
@@ -57,11 +55,11 @@ h1{
 }
 
 #bed{
-    cursor:pointer;
+    mix-blend-mode: difference;
+    cursor:-webkit-grab;
     width:30%;
     bottom: 0;
     right:2%;
     opacity:90%;
     position: absolute;
-    mix-blend-mode: difference;
 }
