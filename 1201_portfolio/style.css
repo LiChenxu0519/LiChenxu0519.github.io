@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background:black;
+}
+  
+p {
+    color: #333;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+h1{
+    font-size: larger;
+    color:#CCFF00;
+    position:absolute;
+}
+
