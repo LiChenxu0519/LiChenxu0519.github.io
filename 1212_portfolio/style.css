@@ -4,7 +4,6 @@
   }
 
   .chenxu{
-    left:45%;
     position: absolute;
     font-size:50px;
     color:black;
@@ -184,18 +183,28 @@
 
 
   /* Create four equal columns that floats next to each other */
-  .ui, .ui2, .ui3, .ui4 , .ui5{
+  .ui
+  {
+    float: left;
+    width: 40%;
+    height:100vh;
+    position:sticky;
+    z-index:8;
+  }
+
+  .ui2, .ui3, .ui4 , .ui5{
     float: left;
     stroke:black;
-    width: 20%;
+    width: 15%;
     height:100vh;
     position: relative;
   }
   
+
   /* Clear floats after the columns */
   body:after {
     content: "";
-    display: table;
+    display: inline;
     clear: both;
   }
 
@@ -208,7 +217,8 @@
   z-index: 0;
 }
 
-.visimg{
+  /* image css */
+.uiimg{
   position: relative;
   width: 100%;
   height: 100%;
@@ -243,7 +253,7 @@
   object-fit: cover;
   z-index: 0;
 }
-
+  /* image css */
 
 #overlay {
   position: fixed;
