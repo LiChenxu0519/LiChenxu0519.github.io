@@ -1,0 +1,19 @@
+
+    #cross {
+        background: red;
+        height: 100px;
+        left:50px;
+        border-radius: 20px;
+        position: relative;
+        width: 20px;
+      }
+      #cross:after {
+        background: red;
+        content: "";
+        height: 20px;
+        left: -40px;
+        border-radius: 20px;
+        position:absolute;
+        top: 40px;
+        width: 100px;
+      }
