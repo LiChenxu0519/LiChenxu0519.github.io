@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family:'Self Modern Trial', 'Times New Roman', 'Serif';
+      margin: 3%;
+  }
+  
+  /* Column container */
+  .row {  
+      display: flex;
+      flex-wrap: noxwwrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 20%;
+      font-size:30px;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 80%;
+    }
+  
+  
+  .hl {
+      position: -webkit-sticky;
+      position: sticky;
+      border-left: 360px solid #95CA82;
+      height: 2px;
+      left: 5%;
+      top: 60px;
+    }
+  
+  .vl {
+      border-left: 2px solid #95CA82;
+      height: 1500px;
+      top:100px;
+  }
+  
+  .aboutbar{
+      margin-left: 2%;
+      background-color: white;
+      position: sticky;
+      top: 80px;
+  }
+  
+  .reviewsbar{
+      margin-left: 2%;
+      background-color: white;
+      position: sticky;
+  }
+  
+  .aboutbar a{
+      display:block;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+  
+  .aboutbar a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(212, 127, 49);
+    }
+  
+  .reviewsbar a{
+      display:block;
+      text-decoration: none;
+      color:#95CA82;
+  }
+  
+  .reviewsbar a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(19, 121, 73);
+    }
+  
+  .reviews{
+      color:black;
+      background-color: white;
+      position: fixed;
+      top: 130px;
+  }
+  
+  .right{
+      position:relative;
+      margin: 0px;
+  }
+  
+  
+  .title1{
+      top: 30px;
+      position:sticky;
+      text-align:right;
+      margin-top:30px;
+      margin-bottom: 30%;
+      font-style: italic;
+      font-size:30px;
+  }
+ 
+#link{
+    text-decoration: none;
+    color:black;
+}
+  .header1{
+    font-style: italic;
+    margin-top: -150%;
+    margin-left:5%;
+    text-align:left;
+    font-size:100px;
+  }
+  
+  .pic{
+    margin-left:5%;
+    margin-top: 10%;
+  }
+
+.text{
+    margin-left:5%;
+    text-align:left;
+    width:60%;
+    font-size: 20px;
+    margin-top: 10%;
+}

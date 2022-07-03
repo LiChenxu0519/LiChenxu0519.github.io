@@ -1,44 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family:'Self Modern Trial', 'Times New Roman', 'Serif';
     margin: 3%;
 }
 
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: noxwwrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 20%;
+    font-size:30px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 80%;
+  }
+
+
 .hl {
+    position: -webkit-sticky;
+    position: sticky;
     border-left: 360px solid rgb(0, 0, 0);
     height: 2px;
-    position: fixed;
     left: 5%;
-    margin-left: 0px;
     top: 60px;
   }
 
 .vl {
     border-left: 2px solid rgb(0, 0, 0);
     height: 1000px;
-    position: absolute;
-    margin-left: -3px;
     left:29%;
     top: 500px;
-  }
+}
 
-.about{
-    left: 5%;
-    font-size:20px;
-    position: fixed;
+.aboutbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
     top: 80px;
 }
 
+.reviewsbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
+}
+
+.aboutbar a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+
+.aboutbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 127, 49);
+  }
+
+.reviewsbar a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+
+.reviewsbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 121, 73);
+  }
+
 .reviews{
-    left: 5%;
-    font-size:20px;
+    color:black;
+    background-color: white;
     position: fixed;
-    top: 110px;
+    top: 130px;
 }
 
 .right{
     position:relative;
     margin: 0px;
-    background-color: aqua;
 }
 
 
@@ -50,8 +98,8 @@ body {
 }
 
 .text{
-    margin-top:300px;
-    margin-left:33%;
+    margin-top:-80%;
+    margin-left:5%;
     text-align:left;
     font-size:30px;
 }
@@ -59,6 +107,6 @@ body {
 .video{
     width:768px; 
     height:432px; 
-    margin-left: 33%;
+    margin-left: 5%;
     margin-top:100px;
 }
