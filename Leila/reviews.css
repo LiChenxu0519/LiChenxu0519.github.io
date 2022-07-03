@@ -36,8 +36,9 @@
     }
   
   .vl {
+      position:sticky;
       border-left: 2px solid #95CA82;
-      height: 1500px;
+      height: 1300px;
       top:100px;
   }
   
@@ -57,7 +58,7 @@
   .aboutbar a{
       display:block;
       text-decoration: none;
-      color: rgb(0, 0, 0);
+      color: #D9D9D9;
   }
   
   .aboutbar a:hover {
@@ -80,7 +81,7 @@
       color:black;
       background-color: white;
       position: fixed;
-      top: 130px;
+      top: 120px;
   }
   
   .right{
@@ -90,36 +91,39 @@
   
   
   .title1{
-      top: 30px;
-      position:sticky;
-      text-align:right;
+      background-color: white;
+      top: 0px;
+      padding: 20px;
       margin-top:30px;
       margin-bottom: 30%;
+      position:fixed;
+      right:0px;
       font-style: italic;
       font-size:30px;
   }
  
-#link{
+  #link{
     text-decoration: none;
     color:black;
-}
-  .header1{
-    font-style: italic;
-    margin-top: -150%;
-    margin-left:5%;
-    text-align:left;
-    font-size:100px;
-  }
-  
-  .pic{
-    margin-left:5%;
-    margin-top: 10%;
   }
 
-.text{
+  .content{
+    width:60%;
+    margin-top:-90%;
+    margin-left:5%;
+  }
+
+  .body2{
+    margin-top: 10%;
+    padding:20px;
+    text-align:left;
+    font-size:36px;
+  }
+  
+.body3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left:5%;
     text-align:left;
-    width:60%;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10%;
 }

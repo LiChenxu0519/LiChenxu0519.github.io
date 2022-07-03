@@ -36,11 +36,12 @@
     }
   
   .vl {
-      border-left: 2px solid #D78E21;
-      height: 1500px;
-      top:100px;
-  }
-  
+    position:sticky;
+    border-left: 2px solid #D78E21;
+    height: 1000px;
+    top:100px;
+}
+
   .aboutbar{
       margin-left: 2%;
       background-color: white;
@@ -68,7 +69,7 @@
   .reviewsbar a{
       display:block;
       text-decoration: none;
-      color:black;
+      color:#D9D9D9;
   }
   
   .reviewsbar a:hover {
@@ -80,7 +81,7 @@
       color:black;
       background-color: white;
       position: fixed;
-      top: 130px;
+      top: 120px;
   }
   
   .right{
@@ -90,28 +91,40 @@
   
   
   .title1{
-      top: 30px;
-      position:sticky;
-      text-align:right;
-      margin-top:30px;
-      margin-bottom: 30%;
-      font-style: italic;
-      font-size:30px;
+    background-color: white;
+    top: 0px;
+    padding: 20px;
+    margin-top:30px;
+    margin-bottom: 30%;
+    position:fixed;
+    right:0px;
+    font-style: italic;
+    font-size:30px;
   }
  
-#link{
+  #link{
     text-decoration: none;
     color:black;
-}
+  }
+
+  .content{
+    width:60%;
+    margin-top:-90%;
+    margin-left:5%;
+  }
+
+
   .header1{
     font-style: italic;
-    margin-top: -150%;
+    margin-top: 10%;
+    padding:20px;
     margin-left:5%;
     text-align:left;
     font-size:100px;
   }
   
   .pic{
+    width:80%;
     margin-left:5%;
     margin-top: 10%;
   }
@@ -119,7 +132,6 @@
 .text{
     margin-left:5%;
     text-align:left;
-    width:60%;
     font-size: 20px;
     margin-top: 10%;
 }
