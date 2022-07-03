@@ -1,0 +1,64 @@
+body {
+    font-family:'Self Modern Trial', 'Times New Roman', 'Serif';
+    margin: 3%;
+}
+
+.hl {
+    border-left: 360px solid rgb(0, 0, 0);
+    height: 2px;
+    position: fixed;
+    left: 5%;
+    margin-left: 0px;
+    top: 60px;
+  }
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 1000px;
+    position: absolute;
+    margin-left: -3px;
+    left:29%;
+    top: 500px;
+  }
+
+.about{
+    left: 5%;
+    font-size:20px;
+    position: fixed;
+    top: 80px;
+}
+
+.reviews{
+    left: 5%;
+    font-size:20px;
+    position: fixed;
+    top: 110px;
+}
+
+.right{
+    position:relative;
+    margin: 0px;
+    background-color: aqua;
+}
+
+
+.title1{
+    margin-top:60px;
+    font-style: italic;
+    text-align:right;
+    font-size:100px;
+}
+
+.text{
+    margin-top:300px;
+    margin-left:33%;
+    text-align:left;
+    font-size:30px;
+}
+
+.video{
+    width:768px; 
+    height:432px; 
+    margin-left: 33%;
+    margin-top:100px;
+}
