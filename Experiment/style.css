@@ -205,6 +205,6 @@ div {
     }
 
     .video{
-        height:fit-content;
+        height: 200px;
     }
 }
