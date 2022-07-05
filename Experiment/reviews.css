@@ -14,6 +14,10 @@ body {
     background-color:rgb(255, 255, 255);
 }
 
+header{
+    display:none;
+}
+
 p {
     margin-top: 8em;
 }
@@ -142,38 +146,124 @@ h1 {
     padding-bottom:10%;
 }
 
-@media only screen and (max-width: 900px) {
 
-    header {
-        width: calc(100% - 40px);
-    
-        padding-top: 16px;
-        padding-bottom: 16px;
-        left: 20px;
-    }    
+@media only screen and (max-width: 900px) {
 
     body {
         font-size: 22px;
     }
-    main {
-        flex-direction: column-reverse;
+
+    header{
+        text-align: right;
+        display: block;
+        background-color: white;
+        position: sticky;
+        scroll-behavior: smooth;
+        padding-top: 35px;
+        top: 0px;
     }
+
     section {
         margin: 20px;
     }
-    nav {
-        flex-direction: column;
 
+    .title1{
+        display:none;
     }
-    h1 {
-        font-size: 1em;
+
+    .row {
+        flex-direction: column-reverse;
     }
+
+    .side{
+        padding: 5%;
+    }
+
+    .hl{
+        margin-bottom: 10px;
+    }
+
+    #left{
+        margin-top: -180%;
+        width: 80%;
+    }
+
+    #right{
+        width: 70%;
+        margin-top: -150%;
+    }
+
     img {
         max-width: 600px;
         width: 100% ;
     }
 }
 
-img {
-    max-width: 300px;
+@media only screen and (max-width: 500px) {
+
+    body {
+        font-size: 22px;
+    }
+
+    a{
+        margin-left: 5%;
+        font-size: 18px;
+        border-bottom: #000000 1px solid;
+    }
+
+    .aboutbar a{
+        border-bottom:none;
+    }
+
+    .reviewsbar a{
+        border-bottom:none;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    header{
+        text-align: right;
+        display: block;
+        background-color: white;
+        position: sticky;
+        scroll-behavior: smooth;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .hl{
+        margin-bottom: 10px;
+    }
+
+    i{
+        font-size:22px;
+    }
+    #left {
+        margin-top: -280%;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .title1 {
+        display:none;
+    }
+
+    .vl{
+        height: 1200px;
+    }
+
+    img {
+        max-width: 600px;
+        width: 100% ;
+    }
+
+    .video{
+        height:fit-content;
+    }
 }

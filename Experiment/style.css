@@ -132,36 +132,79 @@ div {
 
 @media only screen and (max-width: 900px) {
 
-    header {
-        width: calc(100% - 40px);
-    
-        padding-top: 16px;
-        padding-bottom: 16px;
-        left: 20px;
-    }    
-
     body {
         font-size: 22px;
     }
-    main {
+    .row {
         flex-direction: column-reverse;
     }
+
+    .hl{
+        margin-bottom: 10px;
+    }
+
+    #left{
+        margin-top: -120%;
+    }
+
     section {
         margin: 20px;
     }
-    nav {
-        flex-direction: column;
 
-    }
-    h1 {
-        font-size: 1em;
-    }
     img {
         max-width: 600px;
         width: 100% ;
     }
 }
 
-img {
-    max-width: 300px;
+@media only screen and (max-width: 500px) {
+
+    body {
+        font-size: 22px;
+    }
+
+    a{
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .hl{
+        margin-bottom: 10px;
+    }
+
+    #left {
+        margin-top: -140%;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .title1 {
+        background-color: white;
+        position: fixed;
+        right: 30px;
+        font-size: 40px;
+        margin-bottom: 40px;
+        border-bottom: black 2px solid;
+    }
+
+    .vl{
+        height: 800px;
+    }
+
+    img {
+        max-width: 600px;
+        width: 100% ;
+    }
+
+    .video{
+        height:fit-content;
+    }
 }
