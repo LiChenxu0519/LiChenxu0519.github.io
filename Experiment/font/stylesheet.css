@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Self Modern Trial';
+    src: url('SelfModernTrial-Regular.woff2') format('woff2'),
+        url('SelfModernTrial-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Self Modern Trial';
+    src: url('SelfModernTrial-Italic.woff2') format('woff2'),
+        url('SelfModernTrial-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Self Modern Trial';
+    src: url('SelfModernTrial-Text.woff2') format('woff2'),
+        url('SelfModernTrial-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

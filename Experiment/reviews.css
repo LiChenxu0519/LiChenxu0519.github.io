@@ -1,0 +1,179 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body {
+    font-family:'Self Modern Trial', 'Times New Roman', 'Times', 'Serif';
+    font-weight: normal;
+    margin: 3%;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+    color: #000000;
+    background-color:rgb(255, 255, 255);
+}
+
+p {
+    margin-top: 8em;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+        border-bottom: 2px solid #95CA82;
+}
+
+i {
+    font-style: normal;
+    font-size:36px;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: noxwwrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 20%;
+    font-size:25px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 80%;
+  }
+
+
+  .hl {
+    position: -webkit-sticky;
+    position: sticky;
+    border-left: 360px solid #95CA82;
+    height: 2px;
+    left: 5%;
+    top: 60px;
+  }
+
+.vl {
+    border-left: 2px solid #95CA82;
+    height: 1500px;
+    left:29%;
+    top: 500px;
+}
+
+.aboutbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+}
+
+.reviewsbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
+    top: 120px;
+
+}
+
+.aboutbar a{
+    display:block;
+    text-decoration: none;
+    color:#D9D9D9;
+}
+
+.aboutbar a:hover {
+    border-bottom: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 127, 49);
+  }
+
+.reviewsbar a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+
+.reviewsbar a:hover {
+    border-bottom: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 121, 73);
+  }
+
+.reviews{
+    color:black;
+    background-color: white;
+}
+
+.title1{
+    color:black;
+    background-color: white;
+    top: 0px;
+    padding: 20px;
+    margin-top:30px;
+    margin-bottom: 30%;
+    margin-right: 3%;
+    position:fixed;
+    right:0px;
+    font-style: Normal;
+    font-size:26px;
+  }
+
+
+
+#left{
+    font-size:20px;
+    width:60%;
+    margin-left:5%;
+    margin-top: -150%;
+    padding-bottom:10%;
+}
+
+@media only screen and (max-width: 900px) {
+
+    header {
+        width: calc(100% - 40px);
+    
+        padding-top: 16px;
+        padding-bottom: 16px;
+        left: 20px;
+    }    
+
+    body {
+        font-size: 22px;
+    }
+    main {
+        flex-direction: column-reverse;
+    }
+    section {
+        margin: 20px;
+    }
+    nav {
+        flex-direction: column;
+
+    }
+    h1 {
+        font-size: 1em;
+    }
+    img {
+        max-width: 600px;
+        width: 100% ;
+    }
+}
+
+img {
+    max-width: 300px;
+}

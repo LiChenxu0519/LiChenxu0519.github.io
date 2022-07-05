@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body {
+    font-family:'Self Modern Trial', 'Times New Roman', 'Times', 'Serif';
+    font-weight: normal;
+    margin: 3%;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+    color: #000000;
+    background-color:rgb(255, 255, 255);
+}
+
+p {
+    margin-bottom: 3.2em;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: noxwwrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 20%;
+    font-size:25px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 80%;
+  }
+
+
+  .hl {
+    position: -webkit-sticky;
+    position: sticky;
+    border-left: 360px solid rgb(0, 0, 0);
+    height: 2px;
+    left: 5%;
+    top: 60px;
+  }
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 1000px;
+    left:29%;
+    top: 500px;
+}
+
+.aboutbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+}
+
+.reviewsbar{
+    margin-left: 2%;
+    background-color: white;
+    position: sticky;
+    top: 120px;
+
+}
+
+.aboutbar a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+
+.aboutbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 127, 49);
+  }
+
+.reviewsbar a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+
+.reviewsbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 121, 73);
+  }
+
+.reviews{
+    color:black;
+    background-color: white;
+}
+
+
+.title1{
+    color:black;
+    font-style: italic;
+    text-align:right;
+    font-size:90px;
+}
+
+#left{
+    margin-top:-80%;
+    margin-left:5%;
+    width:65%;
+    text-align:left;
+    font-size:25px;
+}
+
+.video{
+    width:768px; 
+    height:432px; 
+    margin-left: 5%;
+    max-width: 100%;
+}
+
+
+div {
+    height: max-content;
+}
+
+@media only screen and (max-width: 900px) {
+
+    header {
+        width: calc(100% - 40px);
+    
+        padding-top: 16px;
+        padding-bottom: 16px;
+        left: 20px;
+    }    
+
+    body {
+        font-size: 22px;
+    }
+    main {
+        flex-direction: column-reverse;
+    }
+    section {
+        margin: 20px;
+    }
+    nav {
+        flex-direction: column;
+
+    }
+    h1 {
+        font-size: 1em;
+    }
+    img {
+        max-width: 600px;
+        width: 100% ;
+    }
+}
+
+img {
+    max-width: 300px;
+}
