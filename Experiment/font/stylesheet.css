@@ -1,26 +1,35 @@
 @font-face {
-    font-family: 'Self Modern Trial';
-    src: url('SelfModernTrial-Regular.woff2') format('woff2'),
-        url('SelfModernTrial-Regular.woff') format('woff');
+    font-family: 'Manrope_Bold';
+    src: url('Manrope-Bold.woff2') format('woff2'),
+        url('Manrope-Bold.woff') format('woff');
     font-weight: 300;
-    font-style: normal;
+    font-style: bold;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Self Modern Trial';
-    src: url('SelfModernTrial-Italic.woff2') format('woff2'),
-        url('SelfModernTrial-Italic.woff') format('woff');
+    font-family: 'Manrope_Normal';
+    src: url('Manrope-Regular.woff2') format('woff2'),
+        url('Manrope-Regular.woff2') format('woff');
     font-weight: 300;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EBGaramond_Italic';
+    src: url('EBGaramond-Italic-VariableFont_wght.woff2') format('woff2'),
+        url('EBGaramond-Italic-VariableFont_wght.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Self Modern Trial';
-    src: url('SelfModernTrial-Text.woff2') format('woff2'),
-        url('SelfModernTrial-Text.woff') format('woff');
-    font-weight: normal;
+    font-family: 'EBGaramond_Normal';
+    src: url('EBGaramond-VariableFont_wght.woff2') format('woff2'),
+        url('EBGaramond-VariableFont_wght.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }

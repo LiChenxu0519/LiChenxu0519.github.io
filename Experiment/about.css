@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:'Self Modern Trial', 'Times New Roman', 'Times', 'Serif';
+    font-family:'EBGaramond_Normal', 'Times New Roman', 'Times', 'Serif';
     font-weight: normal;
     margin: 3%;
     letter-spacing: 0.04em;
@@ -14,25 +14,18 @@ body {
     background-color:rgb(255, 255, 255);
 }
 
-header{
-    display:none;
-}
-
 p {
     margin-bottom: 3.2em;
 }
 
 img {
     max-width: 450px;
+    margin-top:30px;
 }
 
 a{
     text-decoration: none;
     color:black;
-}
-
-a:hover{
-        border-bottom: 2px solid #D78E21;
 }
 
 
@@ -52,83 +45,51 @@ a:hover{
   /* Main column */
   .main {
     flex: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
 
-  .hl {
-    position: -webkit-sticky;
-    position: sticky;
-    border-left: 360px solid #D78E21;
-    height: 2px;
-    left: 5%;
-    top: 60px;
-  }
-
-.vl {
-    border-left: 2px solid #D78E21;
-    height: 1400px;
-    left:29%;
-    top: 500px;
-}
-
-.aboutbar{
-    margin-left: 2%;
-    position: sticky;
-    top: 80px;
-}
-
-.reviewsbar{
-    margin-left: 2%;
-    position: sticky;
-    top: 120px;
-
-}
-
-.aboutbar a{
-    display:block;
-    text-decoration: none;
-    color:black;
-}
-
-.aboutbar a:hover {
-    border-bottom: none;
-    color: rgb(212, 127, 49);
-  }
-
-.reviewsbar a{
-    display:block;
-    text-decoration: none;
+  .about {
     color:#D9D9D9;
 }
 
-.reviewsbar a:hover {
-    border-bottom: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(19, 121, 73);
-  }
-
-.reviews{
-    color:black;
+.reviews {
+    color:#D9D9D9;
 }
 
-.title1{
-    color:black;
-    background-color: white;
-    top: 0px;
-    padding: 20px;
-    margin-top:30px;
-    margin-bottom: 30%;
-    margin-right: 3%;
-    position:fixed;
-    right:0px;
-    font-style: Normal;
-    font-size:26px;
-  }
+.Leila {
+    color:#000000;
+}
+
+.about:hover {
+    background-color: #FFF9EF;
+    color: rgb(0, 0, 0);
+}
+
+
+.reviews:hover {
+    background-color: #F6FFF3;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar a {
+    padding: 0px 0px 5px 20px;
+    text-decoration: none;
+    font-family: Manrope_Bold;
+    font-size: 24px;
+    display: block;
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+
 
 #right{
+    border-right: 600px solid rgb(0, 0, 0);
+    height: 2px;
     width:100%;
     margin-left:5%;
-    margin-top: -130%;
+    margin-top: 0%;
 }
 
 #left{
@@ -136,7 +97,7 @@ a:hover{
     font-size:25px;
     padding:15px;
     margin-left:5%;
-    margin-top: 5%;
+    margin-top: 55%;
 }
 
 
@@ -177,12 +138,12 @@ a:hover{
     }
 
     #left{
-        margin-top: 5%;
+        margin-top:5px;
     }
 
     #right{
         width: 70%;
-        margin-top: -150%;
+        margin-top:55%;
     }
 
     img {
