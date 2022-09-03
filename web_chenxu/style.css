@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    height: 100vh;
+  }
+
+.bg{
+    background: rgb(247, 255, 90);
+    height:100%;
+    width:100%;
+}
+
+.Chenxu{
+    Font-size:40px;
+    position: relative;
+    left: 20px;
+
+}

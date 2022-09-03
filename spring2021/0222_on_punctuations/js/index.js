@@ -1,3 +1,5 @@
+alert("For a better experience, please open the website in your laptop.");
+
 // 获取显示文字的span元素
 const textEl = document.querySelector("#text");
 // 获取并解析要展示的文本数组
