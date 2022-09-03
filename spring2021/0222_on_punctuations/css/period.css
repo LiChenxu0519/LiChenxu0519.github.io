@@ -2,6 +2,29 @@ body
 {
     font-family: courier;
     background-color:rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    font-size:1.25em;
+}
+
+.home{
+    margin:20px;
+    font-size:5em;
+    display:flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+footer{
+    margin-top:50px;
+    position:fixed;
+    bottom:20px;
+    left: 50%;
+    transform:translateX(-50%);
 }
 
 .home{
@@ -11,7 +34,8 @@ body
 }
 
 #firstline{
-    margin-top:20%;
+    margin-top:10%;
+    margin-bottom:20%;
     text-align: center;
     cursor: pointer;
 }
@@ -19,52 +43,34 @@ body
 #body{
     display:none;
     float: right;
-    position: absolute;
-    left: 5em;
-    top: 34em;
     cursor: pointer;
 }
 
 #body2{
     display:none;
     float: right;
-    position: absolute;
-    left: 28em;
-    top: 30em;
     cursor: pointer;
 }
 #body3{
     display:none;
     float: right;
-    position: absolute;
-    left: 50em;
-    top: 30em;
     cursor: pointer;
 }
 
 #body4{
     display:none;
     float: right;
-    position: absolute;
-    left: 60em;
-    top: 7em;
     cursor: pointer;
 }
 
 #body5{
     display:none;
     float: right;
-    position: absolute;
-    left: 0em;
-    top: 5em;
     cursor: pointer;
 }
 
 #body6{
     display:none;
     float: right;
-    position: absolute;
-    left: 25em;
-    top: 1em;
     cursor: pointer;
 }

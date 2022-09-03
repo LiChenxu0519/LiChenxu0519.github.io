@@ -1,19 +1,35 @@
 body
 {
     font-family: courier;
-    font-size:20px;
-    display:block;
+    font-size:1.25em;
+    margin:20px;
     background-color: black;
+    display:block;
 }
 
 .home{
-    font-size:2em;
+    margin:20px;
+    font-size:5em;
+    display:flex;
+    justify-content: center;
+}
+
+a{
     text-decoration:none;
     color:black;
 }
 
+footer{
+    margin-top:50px;
+    position:fixed;
+    bottom:20px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+
 .bodytext{
-    margin-top:20%;
+    margin-top:10%;
 }
 
 #unnecessary{
