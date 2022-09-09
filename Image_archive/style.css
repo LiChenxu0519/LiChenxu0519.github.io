@@ -1,0 +1,25 @@
+body{
+margin:20px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.container{
+    width:30px;
+}
+
+img{
+    width:80%;
+    height:auto;
+    padding:40px;
+}
+
+p{
+    display:none;
+}
+
+
+.Image{
+    width:10%;
+}
