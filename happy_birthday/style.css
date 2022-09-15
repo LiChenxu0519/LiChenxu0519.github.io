@@ -69,6 +69,7 @@ body{
     width: 100px;
     position: fixed;
     left: 10vw;
+    cursor:pointer;
 }
 
 #room2 {
@@ -86,6 +87,7 @@ body{
     width: 100px;
     position: fixed;
     left: 30vw;
+    cursor:pointer;
 }
 
 #room3 {
@@ -103,6 +105,7 @@ body{
     width: 100px;
     position: fixed;
     left: 50vw;
+    cursor:pointer;
 }
 
 #room4 {
@@ -120,4 +123,5 @@ body{
     width: 100px;
     position: fixed;
     left: 70vw;
+    cursor:pointer;
 }
