@@ -1,12 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    font-family: 'VT323', monospace;
+}
+
+body{
+    display:block;
 }
 
 #game {
     width: 100vw;
     height: 100vh;
+}
+
+#loading{
+    color:white;
+    width: 100vw;
+    height:100vh;
+    background-color: black;
+    display: block;
+}
+
+#hint{
+    position: fixed;
+    left: 40vw;
+    bottom:10vh;
+    z-index:-1;
+    font-size:2em;
+}
+
+#hbd{
+    padding:30vh;
+    font-size:5em;
+    color:yellow;
+    cursor:pointer;
 }
 
 #rooms {
@@ -23,7 +50,7 @@
     position: absolute;
     top: 50%;
     left: 200px;
-    z-index: 2;
+    z-index: 0;
 }
 
 #room1 {
@@ -37,9 +64,11 @@
 }
 
 #secondquote{
-    margin-top:30px;
-    display:none;
-    cursor: pointer;
+    margin-top: 10vh;
+    display: none;
+    width: 100px;
+    position: fixed;
+    left: 10vw;
 }
 
 #room2 {
@@ -52,10 +81,11 @@
 }
 
 #thirdquote{
-    margin-top:10px;
-    display:none;
-    cursor: pointer;
-    position:flex;
+    margin-top: 10vh;
+    display: none;
+    width: 100px;
+    position: fixed;
+    left: 30vw;
 }
 
 #room3 {
@@ -68,9 +98,11 @@
 }
 
 #forthquote{
-    margin-top:10px;
-    display:none;
-    cursor: pointer;
+    margin-top: 10vh;
+    display: none;
+    width: 100px;
+    position: fixed;
+    left: 50vw;
 }
 
 #room4 {
@@ -83,7 +115,9 @@
 }
 
 #fifthquote{
-    margin-top:10px;
-    display:none;
-    cursor: pointer;
+    display: none;
+    margin-top: 10vh;
+    width: 100px;
+    position: fixed;
+    left: 70vw;
 }

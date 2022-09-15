@@ -5,37 +5,68 @@
     <meta charset="utf-8" />
     <title>Happy Birthday Mingzhou</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div id="loading" onclick="changeBodyBg();"> <div id="hbd">Happy Birthday!</div></div>
+
     <div id="game">
+        <div>
         <img id="rooms" src="img/background.png">
+        <div id="hint">Use ⬅️ and ➡️ to move</div>
+        </div>
         <img id="character" src="img/xmz.png">
 
         <img id="room1" onclick="showsecondquote()" src="img/gift1.png">
-        <img id="secondquote" src="img/flowers.png"> </img>
+        <img id="secondquote" onclick="popup()" src="img/flowers.png"> </img>
 
         <img id="room2" onclick="showthirdquote()" src="img/gift2.png">
-        <img id="thirdquote" src="img/calendar.png"> </img>
+        <img id="thirdquote" onclick="popup2()" src="img/calendar.png"> </img>
 
         <img id="room3" onclick="showforthquote()" src="img/gift3.png">
-        <img id="forthquote" src="img/birthday_cake.png"> </img>
+        <img id="forthquote" onclick="popup3()" src="img/birthday_cake.png"> </img>
 
         <img id="room4" onclick="showfifthquote()" src="img/gift4.png">
-        <img id="fifthquote" src="img/question.png"> </img>
+        <img id="fifthquote" onclick="popup4()" src="img/question.png"> </img>
     </div>
     <script>
+        function changeBodyBg(){
+        document.getElementById('loading').style.display = "none";
+        }
+
         function showsecondquote() {
-            document.getElementById('secondquote').style.display="block";
+            document.getElementById('secondquote').style.display = "block";
         }
+
+        function popup() {
+            alert("送你一束花花");
+        }
+
         function showthirdquote() {
-            document.getElementById('thirdquote').style.display="block";
+            document.getElementById('thirdquote').style.display = "block";
         }
+
+        function popup2() {
+            alert("送你一个2023年的日历");
+        }
+
         function showforthquote() {
-            document.getElementById('forthquote').style.display="block";
+            document.getElementById('forthquote').style.display = "block";
         }
+
+        function popup3() {
+            alert("给你买个生日蛋糕");
+        }
+
         function showfifthquote() {
-            document.getElementById('fifthquote').style.display="block";
+            document.getElementById('fifthquote').style.display = "block";
+        }
+
+        function popup4() {
+            alert("等你来纽约了再告诉你第四个礼物是啥。然后其实这网站就结束了，但我不知道怎么让这个小人停止向右移动，毁灭吧我累了。");
         }
 
     </script>
