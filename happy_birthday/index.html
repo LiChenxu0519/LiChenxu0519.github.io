@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Happy Birthday Mingzhou</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="game">
+        <img id="rooms" src="img/background.png">
+        <img id="character" src="img/xmz.png">
+
+        <img id="room1" onclick="showsecondquote()" src="img/gift1.png">
+        <img id="secondquote" src="img/flowers.png"> </img>
+
+        <img id="room2" onclick="showthirdquote()" src="img/gift2.png">
+        <img id="thirdquote" src="img/calendar.png"> </img>
+
+        <img id="room3" onclick="showforthquote()" src="img/gift3.png">
+        <img id="forthquote" src="img/birthday_cake.png"> </img>
+
+        <img id="room4" onclick="showfifthquote()" src="img/gift4.png">
+        <img id="fifthquote" src="img/question.png"> </img>
+    </div>
+    <script>
+        function showsecondquote() {
+            document.getElementById('secondquote').style.display="block";
+        }
+        function showthirdquote() {
+            document.getElementById('thirdquote').style.display="block";
+        }
+        function showforthquote() {
+            document.getElementById('forthquote').style.display="block";
+        }
+        function showfifthquote() {
+            document.getElementById('fifthquote').style.display="block";
+        }
+
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
