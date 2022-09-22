@@ -15,7 +15,7 @@ p {
     margin-bottom: 3.2em;
     font-style: italic;
     font-family: 'Cormorant Garamond', serif;
-    font-size:27px;
+    font-size: 27px;
 }
 
 img {
@@ -31,18 +31,18 @@ h1 {
 
 /* Column container */
 .wrapper {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-    width:30%;
+    width: 30%;
     font-size: 25px;
 }
 
-.sidebar{
+.sidebar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -50,16 +50,24 @@ h1 {
 
 /* Main column */
 .main {
-    width:60%
+    width: 60%
 }
 
 .about {
     color: #D9D9D9;
 }
 
+.about:hover {
+    color: rgb(0, 0, 0);
+  }
+
 .reviews {
     color: #D9D9D9;
 }
+
+.reviews:hover {
+    color: rgb(0, 0, 0);
+  }
 
 .Leila {
     color: #000000;
@@ -83,14 +91,11 @@ h1 {
     max-width: 1000px;
     width: 75%;
     text-align: left;
-    font-family: 'EBGaramond_Italic';
     font-size: 30px;
 }
 
 .video {
     float: right;
-    width: 768px;
-    height: 432px;
     margin-left: 5%;
     max-width: 100%;
 }
@@ -103,48 +108,39 @@ div {
 @media only screen and (max-width: 900px) {
 
     body {
-        font-size: 22px;
-    }
-
-    .row {
-        flex-direction: column-reverse;
-    }
-
-    .hl {
-        margin-bottom: 10px;
-    }
-
-    #left {
-        margin-top: -120%;
-    }
-
-    section {
         margin: 20px;
     }
 
-    img {
-        max-width: 600px;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-
-    body {
-        font-size: 22px;
+    .side{
+        width:100%;
+        position: -webkit-sticky;
+        position: sticky;
+        border-left: 1.5px solid black;
+        top:0;
     }
 
-    a {
-        margin-left: 5%;
-        font-size: 18px;
+
+    .sidebar a{
+        margin-left: 3%;
+        padding:0px;
+        text-decoration: none;
+        font-family: 'Manrope', sans-serif;
+        display: block;
+        border-left: 0px;
+        font-size: 20px;
     }
 
     section {
         margin: 10px;
     }
 
-    .row {
-        flex-direction: column-reverse;
+    .main{
+        width:100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
     }
 
     .hl {
@@ -152,22 +148,15 @@ div {
     }
 
     #left {
-        margin-top: -140%;
-        width: 80%;
-        font-size: 18px;
+        width: 90%;
+        margin-top:30%;
+        text-align: right;
+        min-width: 0px;
+        max-width: 500px;
     }
 
-    .title1 {
-        background-color: white;
-        position: fixed;
-        right: 30px;
-        font-size: 40px;
-        margin-bottom: 40px;
-        border-bottom: black 2px solid;
-    }
-
-    .vl {
-        height: 800px;
+    p{
+        font-size: 20px;
     }
 
     img {
@@ -176,6 +165,78 @@ div {
     }
 
     .video {
+        margin-top: 15%;
+        position: fixed;
         height: auto;
+        max-width: 80%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        margin: 15px;
+    }
+
+    .side{
+        width:100%;
+        position: -webkit-sticky;
+        position: sticky;
+        border-left: 1px solid black;
+        top:0;
+    }
+
+    .sidebar a{
+        margin-left: 3%;
+        padding:0px;
+        text-decoration: none;
+        font-family: 'Manrope', sans-serif;
+        display: block;
+        border-left: 0px;
+        font-size: 20px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .main{
+        width:100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hl {
+        margin-bottom: 10px;
+    }
+
+    #left {
+        width: 90%;
+        margin-top:30%;
+        text-align: right;
+        min-width: 0px;
+        max-width: 500px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .video {
+        margin-top: 15%;
+        position: fixed;
+        height: auto;
+        max-width: 80%;
+        
     }
 }

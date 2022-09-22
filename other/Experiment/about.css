@@ -74,8 +74,6 @@ a {
     display: block;
 }
 
-
-
 #right {
     width: 100%;
     margin-left: 5%;
@@ -92,117 +90,65 @@ a {
     margin-top: 55%;
 }
 
-
 @media only screen and (max-width: 900px) {
 
     body {
-        font-size: 22px;
-    }
-
-    header {
-        text-align: right;
-        display: block;
-        background-color: white;
-        position: sticky;
-        scroll-behavior: smooth;
-        padding-top: 35px;
-        top: 0px;
-    }
-
-    section {
         margin: 20px;
     }
 
-    .title1 {
-        display: none;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        border-left: 2px solid rgb(0, 0, 0);
     }
 
-    .row {
-        flex-direction: column-reverse;
+    .side{
+        width:50%;
+        border-left: 0px;
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top:3%;
     }
 
-    .side {
-        padding: 5%;
-    }
-
-    .hl {
-        margin-bottom: 10px;
-    }
-
-    #left {
-        margin-top: 5px;
-    }
-
-    #right {
-        width: 70%;
-        margin-top: 55%;
-    }
-
-    img {
-        max-width: 600px;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-
-    body {
-        font-size: 22px;
-    }
-
-    a {
-        margin-left: 5%;
-        font-size: 18px;
-        border-bottom: #000000 1px solid;
-    }
-
-    .aboutbar a {
-        border-bottom: none;
-    }
-
-    .reviewsbar a {
-        border-bottom: none;
+    .sidebar a{
+        margin-left: 3%;
+        padding:0px;
+        text-decoration: none;
+        font-family: 'Manrope', sans-serif;
+        display: block;
+        border-left: 0px;
+        font-size: 25px;
     }
 
     section {
         margin: 10px;
     }
 
-    header {
-        text-align: right;
-        display: block;
-        background-color: white;
-        position: sticky;
-        scroll-behavior: smooth;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        top: 0px;
+    .main{
+        width: 70%;
+        margin-left: 25%;
+    
     }
 
-    .row {
-        flex-direction: column-reverse;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
     }
 
     .hl {
         margin-bottom: 10px;
     }
 
-    #right {
-        margin-top: -360%;
-    }
-
     #left {
-        margin-top: 5%;
-        width: 90%;
-        font-size: 18px;
+        margin-top:30%;
+        min-width: 600px;
+        max-width: 1000px;
+        width: 75%;
     }
 
-    .title1 {
-        display: none;
-    }
-
-    .vl {
-        height: 1500px;
+    p{
+        font-size: 25px;
     }
 
     img {
@@ -211,6 +157,95 @@ a {
     }
 
     .video {
-        height: fit-content;
+        margin-top: 15%;
+        position: fixed;
+        height: auto;
+        max-width: 80%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        margin: 15px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        border-left: 1px solid black;
+    }
+
+    .side{
+        width:100%;
+        border-left: 0px;
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top:0;
+    }
+
+    .sidebar a{
+        margin-left: 3%;
+        padding:0px;
+        text-decoration: none;
+        border-left: 0px;
+        font-family: 'Manrope', sans-serif;
+        display: block;
+        font-size: 20px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .main{
+        width:100%;
+        margin-left:0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .hl {
+        margin-bottom: 10px;
+    }
+
+    #right{
+        margin-left:0;
+    }
+
+    #left {
+        width: 90%;
+        margin-top:30%;
+        min-width: 0px;
+        max-width: 500px;
+        margin-left:0;
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .video {
+        margin-top: 15%;
+        position: fixed;
+        height: auto;
+        max-width: 80%;
+        
     }
 }
