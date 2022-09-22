@@ -86,7 +86,6 @@ h1 {
 
 #left {
     margin-top: 10%;
-    margin-left: 5%;
     min-width: 600px;
     max-width: 1000px;
     width: 75%;
@@ -149,14 +148,13 @@ div {
 
     #left {
         width: 90%;
-        margin-top:30%;
-        text-align: right;
+        float:right;
         min-width: 0px;
         max-width: 500px;
     }
 
     p{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     img {
@@ -165,11 +163,8 @@ div {
     }
 
     .video {
-        margin-top: 15%;
-        position: fixed;
         height: auto;
-        max-width: 80%;
-        
+        max-width: 70%;
     }
 
 }
@@ -209,6 +204,7 @@ div {
     .wrapper {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .hl {
@@ -234,9 +230,7 @@ div {
 
     .video {
         margin-top: 15%;
-        position: fixed;
-        height: auto;
-        max-width: 80%;
+        max-width: 100%;
         
     }
 }
