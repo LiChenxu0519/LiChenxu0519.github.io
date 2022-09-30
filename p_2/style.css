@@ -4,12 +4,26 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.head1 {
+
+body{
+    cursor: wait;
+    height:100vh;
+}
+
+main{
     display: flex;
     font-family: 'Space Grotesk', sans-serif;
     font-size:1em;
-    justify-content: center;
-    cursor: wait;
-    padding: 50vh;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
+.head1 {
+    cursor:pointer;
+    padding-top: 50vh;
+}
+
+.bored{
+    padding-top: 20px;
+}
