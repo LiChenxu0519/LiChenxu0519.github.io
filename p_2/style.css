@@ -1,0 +1,15 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.head1 {
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:1em;
+    justify-content: center;
+    cursor: wait;
+    padding: 50vh;
+}
+
