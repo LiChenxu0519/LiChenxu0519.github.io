@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Question mark</title>
+        <link rel="stylesheet" href="../0222_on_punctuations/css/questionmark.css">
+    </head>
+<body>
+    
+    <div class="home"><a href="index1.html">?</a></div>
+
+    <div class="firstline">
+        <pre id="firstquote">
+                    The question mark is alright when it is a l l a l o n e 
+                    when it is used as a brand on cattle or when it could be used in decoration 
+                    but connected with writing it is
+        </pre>
+        <div id="firstrotate">completely</div>
+        <div id="first2"> e n t i r e l y</div>
+        <div id="first3">completely</div>
+        <div id="uninteresting" onclick="showsecondquote()">uNInTEreStING.</div>
+    </div>
+
+    <div class="second">
+        <pre id="second1">
+        It is evident that is you ask a question
+        </pre>
+        <pre id="second2">
+                              you ask a question 
+        </pre> 
+        <pre>
+                              but anybody who can read at all knows when
+            <pre id="secondquote" onclick="showthirdrepeat()">  a  q u e s t i o n  i s  a  q u e s t i o n </pre>
+                              as it is written in writing.
+        </pre>
+    </div>
+
+    <div class="third">
+        Therefore I ask you therefore wherefore should one use the question mark. Beside it does not in its form go with ordinary printing and so it pleases neither the eye nor the ear and it is therefore like a noun, just an unnecessary name of something. A question is a question, anybody can know that a question is a question and so why add to it the question mark when it is already there when the question is already there in the writing. Therefore I never could bring myself to use a question mark, I always found it positively revolting, and now very few do use it.
+        <div id="thirdrepeat" onclick="changeBodyBg('white');">
+            wherefore should one use the question mark
+            <div>
+                wherefore should one use the question mark
+            </div>
+            <div>
+                wherefore should one use the question mark
+            </div>
+            <div>
+                wherefore should one use the question mark
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="bottom-links">
+            <a class="a-link" href="apostrophe.html">'</a>&nbsp;
+            <a class="c-link" href="colon_and_semicolon.html">:;</a>&nbsp;
+            <a class="co-link" href="comma.html">,</a>&nbsp;
+            <a class="e-link" href="exclamation.html">!""</a>&nbsp;
+            <a class="p-link" href="period.html">.</a>&nbsp;
+            <a class="q-link" href="question_trial.html">?</a>&nbsp;
+        </div>
+        <a href="index1.html">On Punctuations</a>
+    </footer>
+
+
+    <script>
+        function showsecondquote() {
+            document.getElementById('secondquote').style.display="block";
+        }
+
+        function showthirdrepeat() {
+          document.getElementById("thirdrepeat").style.display="block";
+        }
+
+        function changeBodyBg(color){
+        document.body.style.background = color;
+        }
+    </script>
+</body>
+
+</html>

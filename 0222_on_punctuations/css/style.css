@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+main {
+  background: #ffffff;
+  display: flex;
+  z-index:1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "courier";
+}
+  
+.punct{
+  z-index:2;
+  font-size:15em;
+  position:absolute;
+  line-height:1;
+}
+
+.firstline{
+  align-items: center;
+  margin-left:5%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondline{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#questionmark{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#comma{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#apostrophe{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#period{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#colon{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#semi-colon{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#exclamation{
+  margin:1%;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+
+h1 {
+  color: #36373f;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+  
+span.mark {
+  border-right: 2px solid #36373f;
+  animation: blink 0.6s step-end infinite;
+}
+  
+@keyframes blink 
+{
+  from,
+  to {
+    border-color: transparent;
+    }
+  50% {
+      border-color: #36373f;
+    }
+}
+
+
+.punc
+{
+  background: #ffffff;
+  top:70%;
+  padding-bottom:5%;
+  font-size:1em;
+  font-family:Verdana;
+  text-align:center;
+}
+
+
+@media screen and (max-width: 375px) 
+{
+    .punct{
+    font-size: 8em;
+    line-height:2;}
+
+   h1{margin-top: 5%;
+    margin-left: 5%;
+    }
+
+}

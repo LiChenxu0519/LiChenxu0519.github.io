@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(rgb(0, 0, 0),white);
+    font-family: courier;
+    font-weight: normal;
+}
+
+.home{
+    font-size:2em;
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+.bodytext{
+    margin-top:40%;
+    margin-bottom:40%;
+    padding:30%;
+    font-size:1em;
+    text-align: center;   
+}
+
+.punctuations{
+    text-align: center;
+    font-size:3em;
+}
+
+#comma{
+    text-decoration: none;
+    color:black;
+}
+
+#period{
+    text-decoration: none;
+    color:black;
+}
+
+#colon{
+    text-decoration: none;
+    color:black;
+}
