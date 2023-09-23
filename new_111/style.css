@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* Optional, to prevent wrapping to multiple lines */
+
+    align-items: center; /* Optional, to center the boxes vertically */
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+  }
