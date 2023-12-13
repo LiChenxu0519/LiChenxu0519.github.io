@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+#pageTitle {
+    font-size: 68px;
+    /* Adjust the size as needed */
+    text-align: center;
+    /* Add more styling here if desired */
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    /* Adjust as needed */
+    left: 50%;
+    /* Center the title */
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+    /* Large text size */
+    color: #000000;
+    /* Text color */
+    z-index: -1;
+    /* Place it behind the canvas */
+    /* Add more styles as needed */
+}

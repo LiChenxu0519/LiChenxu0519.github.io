@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url('DMSans_24pt-BoldItalic.woff2') format('woff2'),
+        url('DMSans_24pt-BoldItalic.woff') format('woff');
+    font-weight: bold_italic;
+    font-style: bold_itallic;
+    font-display: swap;
+}
