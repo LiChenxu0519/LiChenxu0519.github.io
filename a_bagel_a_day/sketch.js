@@ -1,4 +1,5 @@
 let bagels = [];
+let saveButton;
 let selectedBagelIndex = -1; // -1 means no bagel is selected
 let jokeAPI = 'https://v2.jokeapi.dev/joke/Any';
 
@@ -30,10 +31,18 @@ function setup() {
       bagels[i].y = (row + 0.5) * spacingY - bagels[i].size / 2;
     }
   textFont(dmSans);
+
+  saveButton = createButton('Take the bagel!');
+  saveButton.position(windowWidth / 2 - saveButton.width / 2, windowHeight - 80); // Position at the bottom center
+  saveButton.mousePressed(saveImage);
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+}
+
+function saveImage() {
+    saveCanvas('Bagel of Today', 'png'); // Saves the canvas as 'mySketch.png'
 }
 
 function draw() {
